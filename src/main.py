@@ -35,13 +35,13 @@ if __name__ == "__main__":
 
     # Define the expected arguments
     parser.add_argument(
-        "--total_fly_time",
+        "--total-fly-time",
         type=float,
         default=90.0,
         help="Total flight time (e.g., in minutes)."
     )
     parser.add_argument(
-        "--data_folder",
+        "--data-folder",
         type=str,
         default="../data/example_1/",
         help="Path to the folder that contains your data."
