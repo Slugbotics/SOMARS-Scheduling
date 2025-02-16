@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>
+            KVNY to KBUR
+            <!-- Title of the flight plan, generally "ICAO1 to ICAO2".-->
+        </Title>
+        <FPType>
+            VFR
+            <!-- Flight plan type -->
+        </FPType>
+        <CruisingAlt>
+            00000
+            <!-- Desired cruising altitude.-->
+        </CruisingAlt>
+        <DepartureID>
+            KVNY
+            <!-- Departure ICAO.-->
+        </DepartureID>
+        <DepartureLLA>
+            N34° 12' 36.57",W118° 29' 24.03",+000775.50
+            <!-- Departure coordinates Lat,Long,Alt.-->
+        </DepartureLLA>
+        <DestinationID>
+            KBUR
+            <!-- Arrival ICAO.-->
+        </DestinationID>
+        <DestinationLLA>
+            N34° 12' 2.24",W118° 21' 30.61",+000722.50
+            <!-- Arrival coordinates Lt,long,alt.-->
+        </DestinationLLA>
+        <Descr>
+            KVNY to KBUR
+            <!-- ICAO1 to ICAO2.-->
+        </Descr>
+        <DeparturePosition>
+            <!-- Departure Runway Number.-->
+        </DeparturePosition>
+        <DepartureName>
+            Van Nuys
+            <!-- Departure Airport Name.-->
+        </DepartureName>
+        <DestinationName>
+            Bob Hope
+            <!-- Arribal Airport Name.-->
+        </DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KVNY">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N34° 12' 36.57",W118° 29' 24.03",+000775.50</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KVNY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CUST0">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 13' 16.8",W118° 28' 46",+001000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="CUST1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 13' 10",W118° 24' 14",+001000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="KBUR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N34° 12' 2.24",W118° 21' 30.61",+000722.50</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KBUR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
