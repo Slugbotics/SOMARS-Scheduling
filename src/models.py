@@ -1,16 +1,43 @@
 import matplotlib.pyplot as plt
 
 class Vertiport:
-    def __init__(self, id=0, name="", current_aircraft=None, capacity=0):
+    def __init__(self, id=0, name="", capacity=0, current_aircraft=None, current_passengers=None):
         if current_aircraft is None:
             current_aircraft = []
+        if current_passengers is None:
+            current_passengers = []
         self.id = id
         self.name = name
-        self.current_aircraft = current_aircraft
         self.capacity = capacity
+        self.current_aircraft = current_aircraft
+        self.current_passengers = current_passengers
     
     def __str__(self):
-        return f"ID: {self.id}, Name: {self.name}, Capacity: {self.capacity}"
+        passengers_str = ', '.join(str(p) for p in self.current_passengers)
+        aircraft_str = ', '.join(str(a) for a in self.current_aircraft)
+        return (
+            f"ID: {self.id}, Name: {self.name}, Capacity: {self.capacity}\n"
+            f"Aircraft: [{aircraft_str}]\n"
+            f"Passengers: [{passengers_str}]"
+        )
+      
+    def display_info(self):
+        print(self)
+
+    def display_aircraft(self):
+        aircraft_str = ', '.join(str(a) for a in self.current_aircraft)
+        print (
+            f"ID: {self.id}, Name: {self.name}, Capacity: {self.capacity}\n"
+            f"Aircraft: [{aircraft_str}]\n"
+        )
+    
+class Passenger:
+    def __init__(self, src, dest):
+        self.src = src 
+        self.dest = dest
+
+    def __str__(self):
+        return f"\nOrigin={self.src}, Destination={self.dest}"
     
     def display_info(self):
         print(self)
@@ -21,12 +48,24 @@ class Aircraft:
         self.bat_per = bat_per
         self.capacity = capacity
         self.loc = loc
+        self.load = []
     
+    def add_passenger(self, passenger: Passenger) -> bool:
+        if len(self.load) >= self.capacity:
+            print("Cannot add passenger (Full Aircraft)")
+            return False 
+        self.load.append(passenger)
+        return True
+    
+    def remove_passengers(self):
+        self.load.clear()
+
     def __str__(self):
-        return f"Aircraft ID={self.id}, Battery={self.bat_per}, Capacity={self.capacity}, Location={self.loc}"
+        return f"\nAircraft ID={self.id}, Battery={self.bat_per}, Capacity={self.capacity}, Location={self.loc}"
     
     def display_info(self):
         print(self)
+
 
 class PassengerDemand:
     def __init__(self, src=0, dest=0, unit_time=1.0, demand=None):
@@ -59,6 +98,7 @@ class PassengerDemand:
         plt.tight_layout()
         plt.show()
 
+
 class TransportTime:
     def __init__(self, src=0, dest=0, time=0):
         self.src = src
@@ -85,35 +125,4 @@ class GroundTransport:
     def display_info(self):
         print(self)
 
-class Simulation:
-    def __init__(self, vertiports, aircraft, passenger_demand, transport_times, ground_transport_schedule):
-        self.vertiports = vertiports
-        self.aircraft = aircraft
-        self.passenger_demand = passenger_demand
-        self.transport_times = transport_times
-        self.ground_transport_schedule = ground_transport_schedule
-    
-    def graph_passenger_demand(self):
-        for demand in self.passenger_demand:
-            demand.graph()
-    
-    def print_simulation_state(self):
-        print("None")
-    
-    def print_simulation_initialization(self):
-        print("Vertiports:")
-        for vp in self.vertiports:
-            vp.display_info()
-        print("\nAircraft:")
-        for a in self.aircraft:
-            a.display_info()
-        print("\nPassenger Demands:")
-        for demand in self.passenger_demand:
-            demand.display_info()
-        print("\nTransport Times:")
-        for transport in self.transport_times:
-            transport.display_info()
-        print("\nGround Transport Schedules:")
-        for t in self.ground_transport_schedule:
-            t.display_info()
 

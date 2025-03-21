@@ -4,7 +4,9 @@ import os
 import sys
 
 from load_data import load_vertiports, load_ground_transport, load_transport_times, load_passenger_demand, load_starting_state 
-from models import Simulation
+from simulation import Simulation
+from event import Event, AircraftFlight, PassengerEvent
+
 
 def main(data_folder, total_fly_time):
     # Check if the specified folder exists
@@ -12,7 +14,6 @@ def main(data_folder, total_fly_time):
         print(f"Error: The specified folder '{data_folder}' does not exist.")
         sys.exit(1)
 
-    # At this point you can continue with the rest of your code logic
     print(f"Total Flight Time: {total_fly_time}")
     print(f"Data folder location: {data_folder}")
 
@@ -24,7 +25,19 @@ def main(data_folder, total_fly_time):
 
     simulation = Simulation(vertiport_list, all_aircraft, demands, transports, ground_transports)
     simulation.print_simulation_initialization()
-    simulation.graph_passenger_demand()
+    #simulation.graph_passenger_demand()
+    simulation.add_all_passenger_events()
+    simulation.add_init_aircraft_state()
+    simulation.print_vertiport_aircraft()
+    # Get the aircraft with id 1
+    aircraft = next((ac for ac in all_aircraft if ac.id == 1), None)
+    # Get the transport from SCZ to BER
+    transport = next((t for t in transports if t.src == "SCZ" and t.dest == "BER"), None)
+    flight = AircraftFlight(201, aircraft, "SCZ", "BER", 30, transport.time)  # departure at 30, enroute time 30 => arrival at 60
+    simulation.event_processor.add_aircraft_flight(flight)
+    simulation.event_processor.run()
+    simulation.print_vertiport_aircraft()
+    # simulation.print_vertiport_states()
 
 if __name__ == "__main__":
     # Set up the argument parser
