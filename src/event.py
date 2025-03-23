@@ -40,3 +40,11 @@ class AircraftFlight:
         return (f"AircraftFlight(flight_id={self.flight_id}, aircraft={self.aircraft}, "
                 f"departure={self.departure_airport}, arrival={self.arrival_airport}, "
                 f"departure_time={self.departure_time}, enroute_time={self.enroute_time})")
+
+class Charge:
+    def __init__(self, aircraft, charge_time):
+        self.aircraft = aircraft 
+        self.charge_time = charge_time 
+    
+    def update_charge(self):
+        self.aircraft.bat_per = min(self.aircraft.battery_capacity, self.aircraft.bat_per + (self.charge_time * self.aircraft.charge_rate))

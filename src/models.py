@@ -46,6 +46,8 @@ class Aircraft:
     def __init__(self, id=0, bat_per=0, capacity=0, loc=""):
         self.id = id
         self.bat_per = bat_per
+        self.battery_capacity = 90
+        self.charge_rate = 1
         self.capacity = capacity
         self.loc = loc
         self.load = []

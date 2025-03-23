@@ -1,6 +1,6 @@
 import heapq
 from models import Aircraft, PassengerDemand, Passenger
-from event import Event, AircraftFlight, PassengerEvent
+from event import Event, AircraftFlight, PassengerEvent, Charge
 
 class EventProcessor:
     def __init__(self, vertiports=None, transport_times = None, ground_transport_schedule=None):
@@ -58,6 +58,12 @@ class EventProcessor:
         self.add_event(arrival_event)
         print(f"Scheduled flight {flight.flight_id}: departure at {flight.departure_time} and arrival at {flight.arrival_time}")
 
+    def add_charge(self, charge: Charge):
+        event = Event(self.get_next_event_id(), self.current_time + charge.charge_time, "chargeevent", charge)
+        self.add_event(event)
+        print(f" Aircraft {charge.aircraft.id} will charge for {charge.charge_time} minutes.")
+            
+
     def modify_event(self, event_id, event_type=None, new_time=None, new_data=None):
         """Modifies an existing event dynamically before it is processed."""
         if event_id in self.flight_events and event_type in self.flight_events[event_id]:
@@ -110,6 +116,8 @@ class EventProcessor:
             self.handle_departure(event.data)
         elif event.event_type == "arrival":
             self.handle_arrival(event.data)
+        elif event.event_type == "chargeevent":
+            self.handle_charge(event.data)
 
     def handle_add_passenger_to_vertiport(self, passenger: Passenger):
         print(f" Adding passenger to vertiport {passenger.src} with destination {passenger.dest}")
@@ -133,10 +141,18 @@ class EventProcessor:
             if vertiport.name == flight.arrival_airport:
                 vertiport.current_aircraft.append(flight.aircraft)
                 print(f"Aircraft added to {vertiport.name}")
-                return
-        print("No matching vertiport found.")
-
+                break
+        
+        flight.aircraft.bat_per -= flight.enroute_time
         flight.aircraft.remove_passengers()
+
+        ### Example
+        # self.add_charge(Charge(flight.aircraft, 30))
+
+    def handle_charge(self, charge: Charge):
+        charge.update_charge()
+        print(f" Aircraft {charge.aircraft.id} completed charging for {charge.charge_time} minutes with new range (minutes) of {charge.aircraft.bat_per}")
+        
 
     def handle_delay(self, data):
         print(f" Processing delay: {data}")
@@ -150,6 +166,7 @@ class EventProcessor:
                 event = self.step()
                 if event:
                     self.process_event(event)
+                
 
 if __name__ == "__main__":
     # Create a Scheduler instance

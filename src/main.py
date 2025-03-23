@@ -24,19 +24,21 @@ def main(data_folder, total_fly_time):
     ground_transports = load_ground_transport(data_folder + 'ground_transport.csv')
 
     simulation = Simulation(vertiport_list, all_aircraft, demands, transports, ground_transports)
-    simulation.print_simulation_initialization()
-    #simulation.graph_passenger_demand()
-    simulation.add_all_passenger_events()
+    # simulation.print_simulation_initialization()
+    # simulation.graph_passenger_demand()
     simulation.add_init_aircraft_state()
-    simulation.print_vertiport_aircraft()
-    # Get the aircraft with id 1
-    aircraft = next((ac for ac in all_aircraft if ac.id == 1), None)
-    # Get the transport from SCZ to BER
-    transport = next((t for t in transports if t.src == "SCZ" and t.dest == "BER"), None)
-    flight = AircraftFlight(201, aircraft, "SCZ", "BER", 30, transport.time)  # departure at 30, enroute time 30 => arrival at 60
-    simulation.event_processor.add_aircraft_flight(flight)
+    simulation.add_all_passenger_events()
+    # simulation.print_vertiport_aircraft()
+
+    ### Example
+    # aircraft = next((ac for ac in all_aircraft if ac.id == 1), None)
+    # transport = next((t for t in transports if t.src == "SCZ" and t.dest == "BER"), None)
+    # flight = AircraftFlight(201, aircraft, "SCZ", "BER", 30, transport.time)  # departure at 30, enroute time 30 => arrival at 60
+    # simulation.event_processor.add_aircraft_flight(flight)
+    ###
+
     simulation.event_processor.run()
-    simulation.print_vertiport_aircraft()
+    # simulation.print_vertiport_aircraft()
     # simulation.print_vertiport_states()
 
 if __name__ == "__main__":
