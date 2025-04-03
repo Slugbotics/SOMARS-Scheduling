@@ -1,0 +1,2571 @@
+ Adding Aircraft 1 to vertiport SCZ
+ Adding Aircraft 2 to vertiport SCZ
+ Adding Aircraft 3 to vertiport MOF
+ Adding Aircraft 4 to vertiport MOF
+ Adding Aircraft 5 to vertiport MOF
+ Adding Aircraft 6 to vertiport MOF
+ Adding Aircraft 7 to vertiport BER
+ Adding Aircraft 8 to vertiport MER
+ Adding Aircraft 9 to vertiport MER
+ Adding Aircraft 10 to vertiport MER
+ Adding Aircraft 11 to vertiport DAV
+ Adding Aircraft 12 to vertiport DAV
+ Adding Aircraft 13 to vertiport DAV
+ Adding Aircraft 14 to vertiport DAV
+ Adding Aircraft 15 to vertiport DAV
+ [t=0.02] Boarded 1 passenger(s) onto Aircraft 11
+[t=0.02]  Scheduled flight | Aircraft 11 | DAV → SCZ | Departure at 1.02 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 1 pax
+ [t=0.02] Boarded 1 passenger(s) onto Aircraft 12
+[t=0.02]  Scheduled flight | Aircraft 12 | DAV → SCZ | Departure at 1.02 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 1 pax
+ [t=0.02] Boarded 1 passenger(s) onto Aircraft 13
+[t=0.02]  Scheduled flight | Aircraft 13 | DAV → SCZ | Departure at 1.02 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 1 pax
+ [t=0.02] Boarded 1 passenger(s) onto Aircraft 14
+[t=0.02]  Scheduled flight | Aircraft 14 | DAV → SCZ | Departure at 1.02 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 1 pax
+ [t=0.02] Boarded 1 passenger(s) onto Aircraft 15
+[t=0.02]  Scheduled flight | Aircraft 15 | DAV → SCZ | Departure at 1.02 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 1 pax
+ [t=0.21] Boarded 1 passenger(s) onto Aircraft 1
+[t=0.21]  Scheduled flight | Aircraft 1 | SCZ → MOF | Departure at 1.21 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from SCZ to MOF with 1 pax
+ [t=0.21] Boarded 1 passenger(s) onto Aircraft 2
+[t=0.21]  Scheduled flight | Aircraft 2 | SCZ → MOF | Departure at 1.21 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from SCZ to MOF with 1 pax
+ [t=0.21] Boarded 1 passenger(s) onto Aircraft 3
+[t=0.21]  Scheduled flight | Aircraft 3 | MOF → BER | Departure at 1.21 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from MOF to BER with 1 pax
+ [t=0.21] Boarded 1 passenger(s) onto Aircraft 4
+[t=0.21]  Scheduled flight | Aircraft 4 | MOF → BER | Departure at 1.21 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from MOF to BER with 1 pax
+ [t=0.38] Boarded 1 passenger(s) onto Aircraft 8
+[t=0.38]  Scheduled flight | Aircraft 8 | MER → DAV | Departure at 1.38 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from MER to DAV with 1 pax
+ [t=0.38] Boarded 1 passenger(s) onto Aircraft 9
+[t=0.38]  Scheduled flight | Aircraft 9 | MER → DAV | Departure at 1.38 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from MER to DAV with 1 pax
+ [t=0.38] Boarded 1 passenger(s) onto Aircraft 10
+[t=0.38]  Scheduled flight | Aircraft 10 | MER → DAV | Departure at 1.38 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from MER to DAV with 1 pax
+ [t=0.38] Boarded 1 passenger(s) onto Aircraft 7
+[t=0.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 1.38 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from BER to MER with 1 pax
+ [t=0.68] Boarded 1 passenger(s) onto Aircraft 5
+[t=0.68]  Scheduled flight | Aircraft 5 | MOF → SCZ | Departure at 1.68 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 1 pax
+ [t=0.77] Boarded 1 passenger(s) onto Aircraft 6
+[t=0.77]  Scheduled flight | Aircraft 6 | MOF → DAV | Departure at 1.77 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 1 pax
+[t=1.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 11 not found in any vertiport.
+[t=1.02] Aircraft 12 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 12 not found in any vertiport.
+[t=1.02] Aircraft 13 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 13 not found in any vertiport.
+[t=1.02] Aircraft 14 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 14 not found in any vertiport.
+[t=1.02] Aircraft 15 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 15 not found in any vertiport.
+[t=1.21] Aircraft 2 DEPARTED from SCZ to MOF | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=1.21] Aircraft 1 DEPARTED from SCZ to MOF | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=1.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=1.21] Aircraft 3 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=1.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=1.38] Aircraft 9 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=1.38] Aircraft 10 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=1.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=1.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=1.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=15.21] Aircraft 4 ARRIVED at BER from MOF | Battery: 90.00%
+[t=15.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+[t=15.21] Aircraft 3 ARRIVED at BER from MOF | Battery: 90.00%
+[t=15.21] Aircraft 3 DEPARTED from MOF to BER | Battery: 90.00%
+[t=16.21] Aircraft 4 DEPARTED from BER to MOF | Battery: 90.00%
+[t=16.21] Aircraft 3 DEPARTED from BER to MOF | Battery: 90.00%
+[t=18.68] Aircraft 5 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=18.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=19.68] Aircraft 5 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=20.77] Aircraft 6 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=20.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=21.21] Aircraft 2 ARRIVED at MOF from SCZ | Battery: 90.00%
+[t=21.21] Aircraft 2 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=21.21] Aircraft 1 ARRIVED at MOF from SCZ | Battery: 90.00%
+[t=21.21] Aircraft 1 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=21.77] Aircraft 6 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=22.21] Aircraft 1 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=22.21] Aircraft 2 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=37.77] Aircraft 6 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=37.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=37.77]  Scheduled flight | Aircraft 6 | MOF → DAV | Departure at 38.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=38.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=39.21] Aircraft 2 ARRIVED at SCZ from MOF | Battery: 90.00%
+ [t=39.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=39.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 40.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=39.21] Aircraft 1 ARRIVED at SCZ from MOF | Battery: 90.00%
+ [t=39.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=39.21]  Scheduled flight | Aircraft 1 | SCZ → MER | Departure at 40.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=39.68] Aircraft 5 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=39.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=39.68]  Scheduled flight | Aircraft 5 | MOF → DAV | Departure at 40.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=40.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=40.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=40.68] Aircraft 5 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=57.77] Aircraft 6 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=57.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=58.77] Aircraft 6 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=59.68] Aircraft 5 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=59.68] Aircraft 5 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=60.68] Aircraft 5 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=62.02] Aircraft 12 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=62.02] Aircraft 12 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=62.02] Aircraft 13 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=62.02] Aircraft 13 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=62.02] Aircraft 14 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=62.02] Aircraft 14 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=62.02] Aircraft 15 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=62.02] Aircraft 15 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=62.02] Aircraft 11 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=62.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=63.02] Aircraft 12 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=63.02] Aircraft 13 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=63.02] Aircraft 14 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=63.02] Aircraft 15 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=63.02] Aircraft 11 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=64.21] Aircraft 3 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=64.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=64.21]  Scheduled flight | Aircraft 3 | MOF → BER | Departure at 65.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=64.21] Aircraft 4 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=64.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=64.21]  Scheduled flight | Aircraft 4 | MOF → SCZ | Departure at 65.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=65.21] Aircraft 3 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=65.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=68.38] Aircraft 9 ARRIVED at DAV from MER | Battery: 90.00%
+[t=68.38] Aircraft 9 DEPARTED from MER to DAV | Battery: 90.00%
+[t=68.38] Aircraft 8 ARRIVED at DAV from MER | Battery: 90.00%
+[t=68.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+[t=68.38] Aircraft 10 ARRIVED at DAV from MER | Battery: 90.00%
+[t=68.38] Aircraft 10 DEPARTED from MER to DAV | Battery: 90.00%
+[t=69.38] Aircraft 9 DEPARTED from DAV to MER | Battery: 90.00%
+[t=69.38] Aircraft 8 DEPARTED from DAV to MER | Battery: 90.00%
+[t=69.38] Aircraft 10 DEPARTED from DAV to MER | Battery: 90.00%
+[t=71.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=71.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=72.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=74.77] Aircraft 6 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=74.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=74.77]  Scheduled flight | Aircraft 6 | MOF → DAV | Departure at 75.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=75.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=76.68] Aircraft 5 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=76.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=76.68]  Scheduled flight | Aircraft 5 | MOF → BER | Departure at 77.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=77.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=77.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=77.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=78.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=79.21] Aircraft 3 ARRIVED at BER from MOF | Battery: 90.00%
+[t=79.21] Aircraft 3 DEPARTED from MOF to BER | Battery: 90.00%
+[t=80.21] Aircraft 3 DEPARTED from BER to MOF | Battery: 90.00%
+[t=82.21] Aircraft 4 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=82.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=83.21] Aircraft 4 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=89.21] Aircraft 1 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=89.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=90.21] Aircraft 1 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=91.68] Aircraft 5 ARRIVED at BER from MOF | Battery: 90.00%
+[t=91.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+[t=92.68] Aircraft 5 DEPARTED from BER to MOF | Battery: 90.00%
+[t=94.77] Aircraft 6 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=94.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=95.77] Aircraft 6 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=103.21] Aircraft 4 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=103.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=103.21]  Scheduled flight | Aircraft 4 | MOF → SCZ | Departure at 104.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=104.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=105.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=105.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=105.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 106.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=106.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=107.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=107.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=107.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 108.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=108.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=111.77] Aircraft 6 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=111.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=111.77]  Scheduled flight | Aircraft 6 | MOF → MER | Departure at 112.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=112.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=118.38] Aircraft 9 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=118.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=118.38]  Scheduled flight | Aircraft 9 | MER → MOF | Departure at 119.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to MOF with 4 pax
+[t=118.38] Aircraft 8 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=118.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=118.38]  Scheduled flight | Aircraft 8 | MER → MOF | Departure at 119.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to MOF with 4 pax
+[t=118.38] Aircraft 10 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=118.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=118.38]  Scheduled flight | Aircraft 10 | MER → BER | Departure at 119.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to BER with 4 pax
+[t=119.38] Aircraft 9 DEPARTED from MER to MOF | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=119.38] Aircraft 8 DEPARTED from MER to MOF | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=119.38] Aircraft 10 DEPARTED from MER to BER | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=121.21] Aircraft 4 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=121.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=122.21] Aircraft 4 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=128.21] Aircraft 3 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=128.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=128.21]  Scheduled flight | Aircraft 3 | MOF → DAV | Departure at 129.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=129.21] Aircraft 3 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=135.02] Aircraft 14 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=135.02] Boarded 4 passenger(s) onto Aircraft 14
+[t=135.02]  Scheduled flight | Aircraft 14 | DAV → BER | Departure at 136.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=135.02] Aircraft 15 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=135.02] Boarded 4 passenger(s) onto Aircraft 15
+[t=135.02]  Scheduled flight | Aircraft 15 | DAV → BER | Departure at 136.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=135.02] Aircraft 12 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=135.02] Boarded 4 passenger(s) onto Aircraft 12
+[t=135.02]  Scheduled flight | Aircraft 12 | DAV → BER | Departure at 136.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=135.02] Aircraft 13 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=135.02] Boarded 4 passenger(s) onto Aircraft 13
+[t=135.02]  Scheduled flight | Aircraft 13 | DAV → BER | Departure at 136.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=135.02] Aircraft 11 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=135.02] Boarded 4 passenger(s) onto Aircraft 11
+[t=135.02]  Scheduled flight | Aircraft 11 | DAV → SCZ | Departure at 136.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=136.02] Aircraft 14 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 14 not found in any vertiport.
+[t=136.02] Aircraft 15 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 15 not found in any vertiport.
+[t=136.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 12 not found in any vertiport.
+[t=136.02] Aircraft 13 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 13 not found in any vertiport.
+[t=136.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 11 not found in any vertiport.
+[t=140.68] Aircraft 5 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=140.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=140.68]  Scheduled flight | Aircraft 5 | MOF → BER | Departure at 141.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=141.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=142.21] Aircraft 1 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=142.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=142.21]  Scheduled flight | Aircraft 1 | SCZ → MER | Departure at 143.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=142.21] Aircraft 4 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=142.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=142.21]  Scheduled flight | Aircraft 4 | MOF → SCZ | Departure at 143.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=143.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=143.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=145.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=145.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=146.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=148.21] Aircraft 3 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=148.21] Aircraft 3 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=149.21] Aircraft 3 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=152.38] Aircraft 10 ARRIVED at BER from MER | Battery: 90.00%
+[t=152.38] Aircraft 10 DEPARTED from MER to BER | Battery: 90.00%
+[t=153.38] Aircraft 10 DEPARTED from BER to MER | Battery: 90.00%
+[t=155.68] Aircraft 5 ARRIVED at BER from MOF | Battery: 90.00%
+[t=155.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+[t=156.68] Aircraft 5 DEPARTED from BER to MOF | Battery: 90.00%
+[t=156.77] Aircraft 6 ARRIVED at MER from MOF | Battery: 90.00%
+[t=156.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+[t=157.77] Aircraft 6 DEPARTED from MER to MOF | Battery: 90.00%
+[t=160.21] Aircraft 4 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=160.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=161.02] Aircraft 14 ARRIVED at BER from DAV | Battery: 90.00%
+[t=161.02] Aircraft 14 DEPARTED from DAV to BER | Battery: 90.00%
+[t=161.02] Aircraft 15 ARRIVED at BER from DAV | Battery: 90.00%
+[t=161.02] Aircraft 15 DEPARTED from DAV to BER | Battery: 90.00%
+[t=161.02] Aircraft 13 ARRIVED at BER from DAV | Battery: 90.00%
+[t=161.02] Aircraft 13 DEPARTED from DAV to BER | Battery: 90.00%
+[t=161.02] Aircraft 12 ARRIVED at BER from DAV | Battery: 90.00%
+[t=161.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+[t=161.21] Aircraft 4 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=162.02] Aircraft 14 DEPARTED from BER to DAV | Battery: 90.00%
+[t=162.02] Aircraft 15 DEPARTED from BER to DAV | Battery: 90.00%
+[t=162.02] Aircraft 13 DEPARTED from BER to DAV | Battery: 90.00%
+[t=162.02] Aircraft 12 DEPARTED from BER to DAV | Battery: 90.00%
+[t=165.21] Aircraft 3 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=165.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=165.21]  Scheduled flight | Aircraft 3 | MOF → MER | Departure at 166.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=166.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=175.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=175.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=175.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 176.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=176.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=176.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=176.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=177.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=181.21] Aircraft 4 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=181.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=181.21]  Scheduled flight | Aircraft 4 | MOF → DAV | Departure at 182.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=182.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=192.21] Aircraft 1 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=192.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=193.21] Aircraft 1 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=197.02] Aircraft 11 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=197.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=198.02] Aircraft 11 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=201.21] Aircraft 4 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=201.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=202.21] Aircraft 4 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=204.68] Aircraft 5 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=204.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=204.68]  Scheduled flight | Aircraft 5 | MOF → BER | Departure at 205.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=205.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=209.38] Aircraft 8 ARRIVED at MOF from MER | Battery: 90.00%
+[t=209.38] Aircraft 8 DEPARTED from MER to MOF | Battery: 90.00%
+[t=209.38] Aircraft 9 ARRIVED at MOF from MER | Battery: 90.00%
+[t=209.38] Aircraft 9 DEPARTED from MER to MOF | Battery: 90.00%
+[t=210.21] Aircraft 3 ARRIVED at MER from MOF | Battery: 90.00%
+[t=210.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+[t=210.38] Aircraft 8 DEPARTED from MOF to MER | Battery: 90.00%
+[t=210.38] Aircraft 9 DEPARTED from MOF to MER | Battery: 90.00%
+[t=210.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=210.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=210.38]  Scheduled flight | Aircraft 7 | BER → SCZ | Departure at 211.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to SCZ with 4 pax
+[t=211.21] Aircraft 3 DEPARTED from MER to MOF | Battery: 90.00%
+[t=211.38] Aircraft 7 DEPARTED from BER to SCZ | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=213.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=213.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=214.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=218.21] Aircraft 4 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=218.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=218.21]  Scheduled flight | Aircraft 4 | MOF → SCZ | Departure at 219.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=219.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=219.68] Aircraft 5 ARRIVED at BER from MOF | Battery: 90.00%
+[t=219.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+[t=220.68] Aircraft 5 DEPARTED from BER to MOF | Battery: 90.00%
+[t=223.38] Aircraft 10 ARRIVED at MER from BER | Battery: 90.00%
+ [t=223.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=223.38]  Scheduled flight | Aircraft 10 | MER → DAV | Departure at 224.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=224.38] Aircraft 10 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=236.21] Aircraft 4 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=236.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=237.21] Aircraft 4 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=240.38] Aircraft 7 ARRIVED at SCZ from BER | Battery: 90.00%
+[t=240.38] Aircraft 7 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=241.38] Aircraft 7 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=242.02] Aircraft 12 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=242.02] Boarded 4 passenger(s) onto Aircraft 12
+[t=242.02]  Scheduled flight | Aircraft 12 | DAV → BER | Departure at 243.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=242.02] Aircraft 14 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=242.02] Boarded 4 passenger(s) onto Aircraft 14
+[t=242.02]  Scheduled flight | Aircraft 14 | DAV → SCZ | Departure at 243.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=242.02] Aircraft 13 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=242.02] Boarded 4 passenger(s) onto Aircraft 13
+[t=242.02]  Scheduled flight | Aircraft 13 | DAV → BER | Departure at 243.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=242.02] Aircraft 15 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=242.02] Boarded 4 passenger(s) onto Aircraft 15
+[t=242.02]  Scheduled flight | Aircraft 15 | DAV → SCZ | Departure at 243.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=243.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 12 not found in any vertiport.
+[t=243.02] Aircraft 14 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 14 not found in any vertiport.
+[t=243.02] Aircraft 13 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 13 not found in any vertiport.
+[t=243.02] Aircraft 15 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 15 not found in any vertiport.
+[t=243.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=243.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=243.21]  Scheduled flight | Aircraft 2 | SCZ → MER | Departure at 244.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=244.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=245.21] Aircraft 1 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=245.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=245.21]  Scheduled flight | Aircraft 1 | SCZ → MER | Departure at 246.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=246.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=247.77] Aircraft 6 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=247.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=247.77]  Scheduled flight | Aircraft 6 | MOF → DAV | Departure at 248.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=248.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=254.38] Aircraft 9 ARRIVED at MER from MOF | Battery: 90.00%
+ [t=254.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=254.38]  Scheduled flight | Aircraft 9 | MER → SCZ | Departure at 255.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to SCZ with 4 pax
+[t=254.38] Aircraft 8 ARRIVED at MER from MOF | Battery: 90.00%
+ [t=254.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=254.38]  Scheduled flight | Aircraft 8 | MER → DAV | Departure at 255.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=255.38] Aircraft 9 DEPARTED from MER to SCZ | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=255.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=257.21] Aircraft 4 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=257.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=257.21]  Scheduled flight | Aircraft 4 | MOF → BER | Departure at 258.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=258.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=267.77] Aircraft 6 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=267.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=268.02] Aircraft 12 ARRIVED at BER from DAV | Battery: 90.00%
+[t=268.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+[t=268.02] Aircraft 13 ARRIVED at BER from DAV | Battery: 90.00%
+[t=268.02] Aircraft 13 DEPARTED from DAV to BER | Battery: 90.00%
+[t=268.68] Aircraft 5 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=268.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=268.68]  Scheduled flight | Aircraft 5 | MOF → SCZ | Departure at 269.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=268.77] Aircraft 6 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=269.02] Aircraft 12 DEPARTED from BER to DAV | Battery: 90.00%
+[t=269.02] Aircraft 13 DEPARTED from BER to DAV | Battery: 90.00%
+[t=269.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=270.02] Aircraft 11 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=270.02] Boarded 4 passenger(s) onto Aircraft 11
+[t=270.02]  Scheduled flight | Aircraft 11 | DAV → MER | Departure at 271.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to MER with 4 pax
+[t=271.02] Aircraft 11 DEPARTED from DAV to MER | Battery: 90.00%
+Aircraft 11 not found in any vertiport.
+[t=272.21] Aircraft 4 ARRIVED at BER from MOF | Battery: 90.00%
+[t=272.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+[t=273.21] Aircraft 4 DEPARTED from BER to MOF | Battery: 90.00%
+[t=278.38] Aircraft 7 ARRIVED at BER from SCZ | Battery: 90.00%
+ [t=278.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=278.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 279.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=279.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=284.77] Aircraft 6 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=284.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=284.77]  Scheduled flight | Aircraft 6 | MOF → DAV | Departure at 285.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=285.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=286.68] Aircraft 5 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=286.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=287.68] Aircraft 5 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=291.38] Aircraft 10 ARRIVED at DAV from MER | Battery: 90.00%
+[t=291.38] Aircraft 10 DEPARTED from MER to DAV | Battery: 90.00%
+[t=292.38] Aircraft 10 DEPARTED from DAV to MER | Battery: 90.00%
+[t=293.21] Aircraft 2 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=293.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=294.21] Aircraft 2 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=295.21] Aircraft 1 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=295.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=296.21] Aircraft 1 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=301.21] Aircraft 3 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=301.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=301.21]  Scheduled flight | Aircraft 3 | MOF → BER | Departure at 302.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=302.21] Aircraft 3 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=304.02] Aircraft 14 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=304.02] Aircraft 14 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=304.02] Aircraft 15 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=304.02] Aircraft 15 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=304.77] Aircraft 6 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=304.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=305.02] Aircraft 14 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=305.02] Aircraft 15 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=305.77] Aircraft 6 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=307.38] Aircraft 9 ARRIVED at SCZ from MER | Battery: 90.00%
+[t=307.38] Aircraft 9 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=307.68] Aircraft 5 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=307.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=307.68]  Scheduled flight | Aircraft 5 | MOF → SCZ | Departure at 308.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=308.38] Aircraft 9 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=308.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=316.21] Aircraft 3 ARRIVED at BER from MOF | Battery: 90.00%
+[t=316.21] Aircraft 3 DEPARTED from MOF to BER | Battery: 90.00%
+[t=317.21] Aircraft 3 DEPARTED from BER to MOF | Battery: 90.00%
+[t=320.02] Aircraft 11 ARRIVED at MER from DAV | Battery: 90.00%
+[t=320.02] Aircraft 11 DEPARTED from DAV to MER | Battery: 90.00%
+[t=321.02] Aircraft 11 DEPARTED from MER to DAV | Battery: 90.00%
+[t=321.21] Aircraft 4 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=321.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=321.21]  Scheduled flight | Aircraft 4 | MOF → MER | Departure at 322.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=321.77] Aircraft 6 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=321.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=321.77]  Scheduled flight | Aircraft 6 | MOF → DAV | Departure at 322.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=322.21] Aircraft 4 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=322.38] Aircraft 8 ARRIVED at DAV from MER | Battery: 90.00%
+[t=322.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+[t=322.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=323.38] Aircraft 8 DEPARTED from DAV to MER | Battery: 90.00%
+[t=325.68] Aircraft 5 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=325.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=326.68] Aircraft 5 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=341.38] Aircraft 10 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=341.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=341.38]  Scheduled flight | Aircraft 10 | MER → BER | Departure at 342.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to BER with 4 pax
+[t=341.77] Aircraft 6 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=341.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=342.38] Aircraft 10 DEPARTED from MER to BER | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=342.77] Aircraft 6 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=346.21] Aircraft 2 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=346.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=346.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 347.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=346.68] Aircraft 5 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=346.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=346.68]  Scheduled flight | Aircraft 5 | MOF → BER | Departure at 347.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=347.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=347.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=348.21] Aircraft 1 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=348.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=348.21]  Scheduled flight | Aircraft 1 | SCZ → BER | Departure at 349.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=349.02] Aircraft 13 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=349.02] Boarded 4 passenger(s) onto Aircraft 13
+[t=349.02]  Scheduled flight | Aircraft 13 | DAV → BER | Departure at 350.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=349.02] Aircraft 12 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=349.02] Boarded 4 passenger(s) onto Aircraft 12
+[t=349.02]  Scheduled flight | Aircraft 12 | DAV → SCZ | Departure at 350.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=349.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=349.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=349.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=350.02] Aircraft 13 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 13 not found in any vertiport.
+[t=350.02] Aircraft 12 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 12 not found in any vertiport.
+[t=350.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=357.38] Aircraft 9 ARRIVED at MER from SCZ | Battery: 90.00%
+ [t=357.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=357.38]  Scheduled flight | Aircraft 9 | MER → MOF | Departure at 358.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to MOF with 4 pax
+[t=358.38] Aircraft 9 DEPARTED from MER to MOF | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=358.77] Aircraft 6 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=358.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=358.77]  Scheduled flight | Aircraft 6 | MOF → SCZ | Departure at 359.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=359.77] Aircraft 6 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=361.68] Aircraft 5 ARRIVED at BER from MOF | Battery: 90.00%
+[t=361.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+[t=362.68] Aircraft 5 DEPARTED from BER to MOF | Battery: 90.00%
+[t=365.21] Aircraft 3 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=365.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=365.21]  Scheduled flight | Aircraft 3 | MOF → MER | Departure at 366.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=366.21] Aircraft 4 ARRIVED at MER from MOF | Battery: 90.00%
+[t=366.21] Aircraft 4 DEPARTED from MOF to MER | Battery: 90.00%
+[t=366.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=367.21] Aircraft 4 DEPARTED from MER to MOF | Battery: 90.00%
+[t=372.38] Aircraft 8 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=372.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=372.38]  Scheduled flight | Aircraft 8 | MER → DAV | Departure at 373.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=373.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=375.02] Aircraft 13 ARRIVED at BER from DAV | Battery: 90.00%
+[t=375.02] Aircraft 13 DEPARTED from DAV to BER | Battery: 90.00%
+[t=375.38] Aircraft 10 ARRIVED at BER from MER | Battery: 90.00%
+[t=375.38] Aircraft 10 DEPARTED from MER to BER | Battery: 90.00%
+[t=376.02] Aircraft 13 DEPARTED from BER to DAV | Battery: 90.00%
+[t=376.38] Aircraft 10 DEPARTED from BER to MER | Battery: 90.00%
+[t=376.77] Aircraft 6 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=376.77] Aircraft 6 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=377.02] Aircraft 14 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=377.02] Boarded 4 passenger(s) onto Aircraft 14
+[t=377.02]  Scheduled flight | Aircraft 14 | DAV → BER | Departure at 378.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=377.02] Aircraft 15 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=377.02] Boarded 4 passenger(s) onto Aircraft 15
+[t=377.02]  Scheduled flight | Aircraft 15 | DAV → SCZ | Departure at 378.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=377.77] Aircraft 6 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=378.02] Aircraft 14 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 14 not found in any vertiport.
+[t=378.02] Aircraft 15 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 15 not found in any vertiport.
+[t=383.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=383.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=383.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 384.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=384.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=384.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=384.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=385.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=386.21] Aircraft 1 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=386.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=387.21] Aircraft 1 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=388.02] Aircraft 11 ARRIVED at DAV from MER | Battery: 90.00%
+ [t=388.02] Boarded 4 passenger(s) onto Aircraft 11
+[t=388.02]  Scheduled flight | Aircraft 11 | DAV → BER | Departure at 389.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=389.02] Aircraft 11 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 11 not found in any vertiport.
+[t=397.77] Aircraft 6 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=397.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=397.77]  Scheduled flight | Aircraft 6 | MOF → DAV | Departure at 398.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=398.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=403.02] Aircraft 14 ARRIVED at BER from DAV | Battery: 90.00%
+[t=403.02] Aircraft 14 DEPARTED from DAV to BER | Battery: 90.00%
+[t=404.02] Aircraft 14 DEPARTED from BER to DAV | Battery: 90.00%
+[t=410.21] Aircraft 3 ARRIVED at MER from MOF | Battery: 90.00%
+[t=410.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+[t=410.68] Aircraft 5 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=410.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=410.68]  Scheduled flight | Aircraft 5 | MOF → BER | Departure at 411.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=411.02] Aircraft 12 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=411.02] Aircraft 12 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=411.21] Aircraft 3 DEPARTED from MER to MOF | Battery: 90.00%
+[t=411.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=412.02] Aircraft 12 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=414.02] Aircraft 11 ARRIVED at BER from DAV | Battery: 90.00%
+[t=414.02] Aircraft 11 DEPARTED from DAV to BER | Battery: 90.00%
+[t=414.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=414.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=414.21]  Scheduled flight | Aircraft 2 | SCZ → MER | Departure at 415.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=415.02] Aircraft 11 DEPARTED from BER to DAV | Battery: 90.00%
+[t=415.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=416.21] Aircraft 1 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=416.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=416.21]  Scheduled flight | Aircraft 1 | SCZ → BER | Departure at 417.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=417.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=417.77] Aircraft 6 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=417.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=418.77] Aircraft 6 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=425.68] Aircraft 5 ARRIVED at BER from MOF | Battery: 90.00%
+[t=425.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+[t=426.68] Aircraft 5 DEPARTED from BER to MOF | Battery: 90.00%
+[t=434.77] Aircraft 6 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=434.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=434.77]  Scheduled flight | Aircraft 6 | MOF → SCZ | Departure at 435.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=435.77] Aircraft 6 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=439.02] Aircraft 15 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=439.02] Aircraft 15 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=440.02] Aircraft 15 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=440.38] Aircraft 8 ARRIVED at DAV from MER | Battery: 90.00%
+[t=440.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+[t=441.38] Aircraft 8 DEPARTED from DAV to MER | Battery: 90.00%
+[t=446.38] Aircraft 10 ARRIVED at MER from BER | Battery: 90.00%
+ [t=446.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=446.38]  Scheduled flight | Aircraft 10 | MER → BER | Departure at 447.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to BER with 4 pax
+[t=447.38] Aircraft 10 DEPARTED from MER to BER | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=448.38] Aircraft 9 ARRIVED at MOF from MER | Battery: 90.00%
+[t=448.38] Aircraft 9 DEPARTED from MER to MOF | Battery: 90.00%
+[t=449.38] Aircraft 9 DEPARTED from MOF to MER | Battery: 90.00%
+[t=452.77] Aircraft 6 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=452.77] Aircraft 6 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=453.77] Aircraft 6 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=454.21] Aircraft 1 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=454.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=454.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=454.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=455.21] Aircraft 1 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=455.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=456.02] Aircraft 13 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=456.02] Boarded 4 passenger(s) onto Aircraft 13
+[t=456.02]  Scheduled flight | Aircraft 13 | DAV → SCZ | Departure at 457.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=457.02] Aircraft 13 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 13 not found in any vertiport.
+[t=457.21] Aircraft 4 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=457.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=457.21]  Scheduled flight | Aircraft 4 | MOF → DAV | Departure at 458.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=458.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=464.21] Aircraft 2 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=464.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=465.21] Aircraft 2 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=473.77] Aircraft 6 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=473.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=473.77]  Scheduled flight | Aircraft 6 | MOF → BER | Departure at 474.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=474.68] Aircraft 5 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=474.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=474.68]  Scheduled flight | Aircraft 5 | MOF → SCZ | Departure at 475.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=474.77] Aircraft 6 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=475.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=477.21] Aircraft 4 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=477.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=478.21] Aircraft 4 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=480.38] Aircraft 10 ARRIVED at BER from MER | Battery: 90.00%
+[t=480.38] Aircraft 10 DEPARTED from MER to BER | Battery: 90.00%
+[t=481.38] Aircraft 10 DEPARTED from BER to MER | Battery: 90.00%
+[t=484.02] Aircraft 14 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=484.02] Boarded 4 passenger(s) onto Aircraft 14
+[t=484.02]  Scheduled flight | Aircraft 14 | DAV → BER | Departure at 485.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=484.02] Aircraft 12 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=484.02] Boarded 4 passenger(s) onto Aircraft 12
+[t=484.02]  Scheduled flight | Aircraft 12 | DAV → SCZ | Departure at 485.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=484.21] Aircraft 1 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=484.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=484.21]  Scheduled flight | Aircraft 1 | SCZ → MER | Departure at 485.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=485.02] Aircraft 14 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 14 not found in any vertiport.
+[t=485.02] Aircraft 12 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 12 not found in any vertiport.
+[t=485.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=488.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=488.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=488.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 489.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=488.77] Aircraft 6 ARRIVED at BER from MOF | Battery: 90.00%
+[t=488.77] Aircraft 6 DEPARTED from MOF to BER | Battery: 90.00%
+[t=489.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=489.77] Aircraft 6 DEPARTED from BER to MOF | Battery: 90.00%
+[t=490.38] Aircraft 8 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=490.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=490.38]  Scheduled flight | Aircraft 8 | MER → DAV | Departure at 491.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=491.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=492.68] Aircraft 5 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=492.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=493.38] Aircraft 9 ARRIVED at MER from MOF | Battery: 90.00%
+ [t=493.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=493.38]  Scheduled flight | Aircraft 9 | MER → SCZ | Departure at 494.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to SCZ with 4 pax
+[t=493.68] Aircraft 5 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=494.21] Aircraft 4 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=494.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=494.21]  Scheduled flight | Aircraft 4 | MOF → MER | Departure at 495.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=494.38] Aircraft 9 DEPARTED from MER to SCZ | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=495.02] Aircraft 11 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=495.02] Boarded 4 passenger(s) onto Aircraft 11
+[t=495.02]  Scheduled flight | Aircraft 11 | DAV → MER | Departure at 496.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to MER with 4 pax
+[t=495.21] Aircraft 4 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=496.02] Aircraft 11 DEPARTED from DAV to MER | Battery: 90.00%
+Aircraft 11 not found in any vertiport.
+[t=501.21] Aircraft 3 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=501.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=501.21]  Scheduled flight | Aircraft 3 | MOF → DAV | Departure at 502.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=502.21] Aircraft 3 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=510.02] Aircraft 14 ARRIVED at BER from DAV | Battery: 90.00%
+[t=510.02] Aircraft 14 DEPARTED from DAV to BER | Battery: 90.00%
+[t=511.02] Aircraft 14 DEPARTED from BER to DAV | Battery: 90.00%
+[t=512.02] Aircraft 15 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=512.02] Boarded 4 passenger(s) onto Aircraft 15
+[t=512.02]  Scheduled flight | Aircraft 15 | DAV → BER | Departure at 513.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=513.02] Aircraft 15 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 15 not found in any vertiport.
+[t=513.68] Aircraft 5 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=513.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=513.68]  Scheduled flight | Aircraft 5 | MOF → BER | Departure at 514.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=514.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=517.21] Aircraft 2 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=517.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=517.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 518.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=518.02] Aircraft 13 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=518.02] Aircraft 13 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=518.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=519.02] Aircraft 13 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=521.21] Aircraft 3 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=521.21] Aircraft 3 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=522.21] Aircraft 3 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=528.68] Aircraft 5 ARRIVED at BER from MOF | Battery: 90.00%
+[t=528.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+[t=529.68] Aircraft 5 DEPARTED from BER to MOF | Battery: 90.00%
+[t=534.21] Aircraft 1 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=534.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=535.21] Aircraft 1 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=537.77] Aircraft 6 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=537.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=537.77]  Scheduled flight | Aircraft 6 | MOF → SCZ | Departure at 538.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=538.02] Aircraft 15 ARRIVED at BER from DAV | Battery: 90.00%
+[t=538.02] Aircraft 15 DEPARTED from DAV to BER | Battery: 90.00%
+[t=538.21] Aircraft 3 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=538.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=538.21]  Scheduled flight | Aircraft 3 | MOF → DAV | Departure at 539.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=538.77] Aircraft 6 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=539.02] Aircraft 15 DEPARTED from BER to DAV | Battery: 90.00%
+[t=539.21] Aircraft 4 ARRIVED at MER from MOF | Battery: 90.00%
+[t=539.21] Aircraft 4 DEPARTED from MOF to MER | Battery: 90.00%
+[t=539.21] Aircraft 3 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=540.21] Aircraft 4 DEPARTED from MER to MOF | Battery: 90.00%
+[t=545.02] Aircraft 11 ARRIVED at MER from DAV | Battery: 90.00%
+[t=545.02] Aircraft 11 DEPARTED from DAV to MER | Battery: 90.00%
+[t=546.02] Aircraft 12 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=546.02] Aircraft 12 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=546.02] Aircraft 11 DEPARTED from MER to DAV | Battery: 90.00%
+[t=546.38] Aircraft 9 ARRIVED at SCZ from MER | Battery: 90.00%
+[t=546.38] Aircraft 9 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=547.02] Aircraft 12 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=547.38] Aircraft 9 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=551.38] Aircraft 10 ARRIVED at MER from BER | Battery: 90.00%
+ [t=551.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=551.38]  Scheduled flight | Aircraft 10 | MER → BER | Departure at 552.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to BER with 4 pax
+[t=552.38] Aircraft 10 DEPARTED from MER to BER | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=555.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=555.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=555.77] Aircraft 6 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=555.77] Aircraft 6 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=556.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=556.77] Aircraft 6 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=558.21] Aircraft 3 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=558.21] Aircraft 3 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=558.38] Aircraft 8 ARRIVED at DAV from MER | Battery: 90.00%
+[t=558.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+[t=559.21] Aircraft 3 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=559.38] Aircraft 8 DEPARTED from DAV to MER | Battery: 90.00%
+[t=559.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=559.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=560.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=575.21] Aircraft 3 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=575.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=575.21]  Scheduled flight | Aircraft 3 | MOF → MER | Departure at 576.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=576.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=576.77] Aircraft 6 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=576.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=576.77]  Scheduled flight | Aircraft 6 | MOF → BER | Departure at 577.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=577.68] Aircraft 5 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=577.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=577.68]  Scheduled flight | Aircraft 5 | MOF → SCZ | Departure at 578.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=577.77] Aircraft 6 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=578.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=585.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=585.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=585.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 586.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=585.38] Aircraft 10 ARRIVED at BER from MER | Battery: 90.00%
+[t=585.38] Aircraft 10 DEPARTED from MER to BER | Battery: 90.00%
+[t=586.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=586.38] Aircraft 10 DEPARTED from BER to MER | Battery: 90.00%
+[t=587.21] Aircraft 1 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=587.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=587.21]  Scheduled flight | Aircraft 1 | SCZ → MER | Departure at 588.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=588.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=591.02] Aircraft 13 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=591.02] Boarded 4 passenger(s) onto Aircraft 13
+[t=591.02]  Scheduled flight | Aircraft 13 | DAV → SCZ | Departure at 592.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=591.02] Aircraft 14 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=591.02] Boarded 4 passenger(s) onto Aircraft 14
+[t=591.02]  Scheduled flight | Aircraft 14 | DAV → BER | Departure at 592.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=591.77] Aircraft 6 ARRIVED at BER from MOF | Battery: 90.00%
+[t=591.77] Aircraft 6 DEPARTED from MOF to BER | Battery: 90.00%
+[t=592.02] Aircraft 13 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 13 not found in any vertiport.
+[t=592.02] Aircraft 14 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 14 not found in any vertiport.
+[t=592.77] Aircraft 6 DEPARTED from BER to MOF | Battery: 90.00%
+[t=593.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=593.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=593.38]  Scheduled flight | Aircraft 7 | BER → SCZ | Departure at 594.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to SCZ with 4 pax
+[t=594.38] Aircraft 7 DEPARTED from BER to SCZ | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=595.68] Aircraft 5 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=595.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=596.38] Aircraft 9 ARRIVED at MER from SCZ | Battery: 90.00%
+ [t=596.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=596.38]  Scheduled flight | Aircraft 9 | MER → DAV | Departure at 597.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=596.68] Aircraft 5 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=597.38] Aircraft 9 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=608.38] Aircraft 8 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=608.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=608.38]  Scheduled flight | Aircraft 8 | MER → MOF | Departure at 609.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to MOF with 4 pax
+[t=609.38] Aircraft 8 DEPARTED from MER to MOF | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=613.02] Aircraft 11 ARRIVED at DAV from MER | Battery: 90.00%
+ [t=613.02] Boarded 4 passenger(s) onto Aircraft 11
+[t=613.02]  Scheduled flight | Aircraft 11 | DAV → SCZ | Departure at 614.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=614.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 11 not found in any vertiport.
+[t=616.68] Aircraft 5 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=616.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=616.68]  Scheduled flight | Aircraft 5 | MOF → MER | Departure at 617.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=617.02] Aircraft 14 ARRIVED at BER from DAV | Battery: 90.00%
+[t=617.02] Aircraft 14 DEPARTED from DAV to BER | Battery: 90.00%
+[t=617.68] Aircraft 5 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=618.02] Aircraft 14 DEPARTED from BER to DAV | Battery: 90.00%
+[t=619.02] Aircraft 12 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=619.02] Boarded 4 passenger(s) onto Aircraft 12
+[t=619.02]  Scheduled flight | Aircraft 12 | DAV → BER | Departure at 620.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=619.02] Aircraft 15 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=619.02] Boarded 4 passenger(s) onto Aircraft 15
+[t=619.02]  Scheduled flight | Aircraft 15 | DAV → MER | Departure at 620.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to MER with 4 pax
+[t=620.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 12 not found in any vertiport.
+[t=620.02] Aircraft 15 DEPARTED from DAV to MER | Battery: 90.00%
+Aircraft 15 not found in any vertiport.
+[t=620.21] Aircraft 3 ARRIVED at MER from MOF | Battery: 90.00%
+[t=620.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+[t=621.21] Aircraft 3 DEPARTED from MER to MOF | Battery: 90.00%
+[t=623.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=623.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=623.38] Aircraft 7 ARRIVED at SCZ from BER | Battery: 90.00%
+[t=623.38] Aircraft 7 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=624.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=624.38] Aircraft 7 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=630.21] Aircraft 4 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=630.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=630.21]  Scheduled flight | Aircraft 4 | MOF → DAV | Departure at 631.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=631.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=637.21] Aircraft 1 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=637.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=638.21] Aircraft 1 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=640.77] Aircraft 6 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=640.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=640.77]  Scheduled flight | Aircraft 6 | MOF → BER | Departure at 641.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=641.77] Aircraft 6 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=645.02] Aircraft 12 ARRIVED at BER from DAV | Battery: 90.00%
+[t=645.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+[t=646.02] Aircraft 12 DEPARTED from BER to DAV | Battery: 90.00%
+[t=650.21] Aircraft 4 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=650.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=651.21] Aircraft 4 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=653.02] Aircraft 13 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=653.02] Aircraft 13 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=653.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=653.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=653.21]  Scheduled flight | Aircraft 2 | SCZ → MER | Departure at 654.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=654.02] Aircraft 13 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=654.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=655.77] Aircraft 6 ARRIVED at BER from MOF | Battery: 90.00%
+[t=655.77] Aircraft 6 DEPARTED from MOF to BER | Battery: 90.00%
+[t=656.38] Aircraft 10 ARRIVED at MER from BER | Battery: 90.00%
+ [t=656.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=656.38]  Scheduled flight | Aircraft 10 | MER → DAV | Departure at 657.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=656.77] Aircraft 6 DEPARTED from BER to MOF | Battery: 90.00%
+[t=657.38] Aircraft 10 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=661.38] Aircraft 7 ARRIVED at BER from SCZ | Battery: 90.00%
+ [t=661.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=661.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 662.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=661.68] Aircraft 5 ARRIVED at MER from MOF | Battery: 90.00%
+[t=661.68] Aircraft 5 DEPARTED from MOF to MER | Battery: 90.00%
+[t=662.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=662.68] Aircraft 5 DEPARTED from MER to MOF | Battery: 90.00%
+[t=664.38] Aircraft 9 ARRIVED at DAV from MER | Battery: 90.00%
+[t=664.38] Aircraft 9 DEPARTED from MER to DAV | Battery: 90.00%
+[t=665.38] Aircraft 9 DEPARTED from DAV to MER | Battery: 90.00%
+[t=667.21] Aircraft 4 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=667.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=667.21]  Scheduled flight | Aircraft 4 | MOF → SCZ | Departure at 668.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=668.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=669.02] Aircraft 15 ARRIVED at MER from DAV | Battery: 90.00%
+[t=669.02] Aircraft 15 DEPARTED from DAV to MER | Battery: 90.00%
+[t=670.02] Aircraft 15 DEPARTED from MER to DAV | Battery: 90.00%
+[t=675.02] Aircraft 11 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=675.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=676.02] Aircraft 11 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=685.21] Aircraft 4 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=685.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=686.21] Aircraft 4 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=690.21] Aircraft 1 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=690.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=690.21]  Scheduled flight | Aircraft 1 | SCZ → BER | Departure at 691.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=691.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=698.02] Aircraft 14 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=698.02] Boarded 4 passenger(s) onto Aircraft 14
+[t=698.02]  Scheduled flight | Aircraft 14 | DAV → SCZ | Departure at 699.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=699.02] Aircraft 14 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 14 not found in any vertiport.
+[t=699.38] Aircraft 8 ARRIVED at MOF from MER | Battery: 90.00%
+[t=699.38] Aircraft 8 DEPARTED from MER to MOF | Battery: 90.00%
+[t=700.38] Aircraft 8 DEPARTED from MOF to MER | Battery: 90.00%
+[t=703.21] Aircraft 2 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=703.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=704.21] Aircraft 2 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=704.77] Aircraft 6 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=704.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=704.77]  Scheduled flight | Aircraft 6 | MOF → DAV | Departure at 705.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=705.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=706.21] Aircraft 4 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=706.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=706.21]  Scheduled flight | Aircraft 4 | MOF → BER | Departure at 707.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=707.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=711.21] Aircraft 3 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=711.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=711.21]  Scheduled flight | Aircraft 3 | MOF → SCZ | Departure at 712.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=712.21] Aircraft 3 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=714.38] Aircraft 9 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=714.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=714.38]  Scheduled flight | Aircraft 9 | MER → BER | Departure at 715.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to BER with 4 pax
+[t=715.38] Aircraft 9 DEPARTED from MER to BER | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=721.21] Aircraft 4 ARRIVED at BER from MOF | Battery: 90.00%
+[t=721.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+[t=722.21] Aircraft 4 DEPARTED from BER to MOF | Battery: 90.00%
+[t=724.38] Aircraft 10 ARRIVED at DAV from MER | Battery: 90.00%
+[t=724.38] Aircraft 10 DEPARTED from MER to DAV | Battery: 90.00%
+[t=724.77] Aircraft 6 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=724.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=725.38] Aircraft 10 DEPARTED from DAV to MER | Battery: 90.00%
+[t=725.77] Aircraft 6 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=726.02] Aircraft 12 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=726.02] Boarded 4 passenger(s) onto Aircraft 12
+[t=726.02]  Scheduled flight | Aircraft 12 | DAV → BER | Departure at 727.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=726.02] Aircraft 13 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=726.02] Boarded 4 passenger(s) onto Aircraft 13
+[t=726.02]  Scheduled flight | Aircraft 13 | DAV → SCZ | Departure at 727.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=727.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 12 not found in any vertiport.
+[t=727.02] Aircraft 13 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 13 not found in any vertiport.
+[t=728.21] Aircraft 1 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=728.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=729.21] Aircraft 1 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=729.21] Aircraft 3 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=729.21] Aircraft 3 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=730.21] Aircraft 3 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=732.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=732.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=733.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=737.02] Aircraft 15 ARRIVED at DAV from MER | Battery: 90.00%
+ [t=737.02] Boarded 4 passenger(s) onto Aircraft 15
+[t=737.02]  Scheduled flight | Aircraft 15 | DAV → BER | Departure at 738.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=738.02] Aircraft 15 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 15 not found in any vertiport.
+[t=741.77] Aircraft 6 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=741.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=741.77]  Scheduled flight | Aircraft 6 | MOF → MER | Departure at 742.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=742.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=744.38] Aircraft 8 ARRIVED at MER from MOF | Battery: 90.00%
+ [t=744.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=744.38]  Scheduled flight | Aircraft 8 | MER → SCZ | Departure at 745.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to SCZ with 4 pax
+[t=745.38] Aircraft 8 DEPARTED from MER to SCZ | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=748.02] Aircraft 11 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=748.02] Boarded 4 passenger(s) onto Aircraft 11
+[t=748.02]  Scheduled flight | Aircraft 11 | DAV → SCZ | Departure at 749.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=748.38] Aircraft 9 ARRIVED at BER from MER | Battery: 90.00%
+[t=748.38] Aircraft 9 DEPARTED from MER to BER | Battery: 90.00%
+[t=749.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 11 not found in any vertiport.
+[t=749.38] Aircraft 9 DEPARTED from BER to MER | Battery: 90.00%
+[t=750.21] Aircraft 3 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=750.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=750.21]  Scheduled flight | Aircraft 3 | MOF → DAV | Departure at 751.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=751.21] Aircraft 3 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=752.02] Aircraft 12 ARRIVED at BER from DAV | Battery: 90.00%
+[t=752.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+[t=752.68] Aircraft 5 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=752.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=752.68]  Scheduled flight | Aircraft 5 | MOF → BER | Departure at 753.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=753.02] Aircraft 12 DEPARTED from BER to DAV | Battery: 90.00%
+[t=753.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=756.21] Aircraft 2 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=756.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=756.21]  Scheduled flight | Aircraft 2 | SCZ → MER | Departure at 757.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=757.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=758.21] Aircraft 1 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=758.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=758.21]  Scheduled flight | Aircraft 1 | SCZ → BER | Departure at 759.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=759.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=760.02] Aircraft 14 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=760.02] Aircraft 14 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=761.02] Aircraft 14 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=763.02] Aircraft 15 ARRIVED at BER from DAV | Battery: 90.00%
+[t=763.02] Aircraft 15 DEPARTED from DAV to BER | Battery: 90.00%
+[t=764.02] Aircraft 15 DEPARTED from BER to DAV | Battery: 90.00%
+[t=766.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=766.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=766.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 767.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=767.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=767.68] Aircraft 5 ARRIVED at BER from MOF | Battery: 90.00%
+[t=767.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+[t=768.68] Aircraft 5 DEPARTED from BER to MOF | Battery: 90.00%
+[t=770.21] Aircraft 4 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=770.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=770.21]  Scheduled flight | Aircraft 4 | MOF → SCZ | Departure at 771.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=770.21] Aircraft 3 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=770.21] Aircraft 3 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=771.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=771.21] Aircraft 3 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=774.38] Aircraft 10 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=774.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=774.38]  Scheduled flight | Aircraft 10 | MER → DAV | Departure at 775.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=775.38] Aircraft 10 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=786.77] Aircraft 6 ARRIVED at MER from MOF | Battery: 90.00%
+[t=786.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+[t=787.21] Aircraft 3 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=787.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=787.21]  Scheduled flight | Aircraft 3 | MOF → MER | Departure at 788.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=787.77] Aircraft 6 DEPARTED from MER to MOF | Battery: 90.00%
+[t=788.02] Aircraft 13 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=788.02] Aircraft 13 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=788.21] Aircraft 4 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=788.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=788.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=789.02] Aircraft 13 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=789.21] Aircraft 4 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=796.21] Aircraft 1 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=796.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=797.21] Aircraft 1 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=797.38] Aircraft 8 ARRIVED at SCZ from MER | Battery: 90.00%
+[t=797.38] Aircraft 8 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=798.38] Aircraft 8 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=806.21] Aircraft 2 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=806.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=807.21] Aircraft 2 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=809.21] Aircraft 4 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=809.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=809.21]  Scheduled flight | Aircraft 4 | MOF → DAV | Departure at 810.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=810.02] Aircraft 11 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=810.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=810.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=811.02] Aircraft 11 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=816.68] Aircraft 5 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=816.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=816.68]  Scheduled flight | Aircraft 5 | MOF → BER | Departure at 817.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=817.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=819.38] Aircraft 9 ARRIVED at MER from BER | Battery: 90.00%
+ [t=819.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=819.38]  Scheduled flight | Aircraft 9 | MER → BER | Departure at 820.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to BER with 4 pax
+[t=820.38] Aircraft 9 DEPARTED from MER to BER | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=826.21] Aircraft 1 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=826.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=826.21]  Scheduled flight | Aircraft 1 | SCZ → BER | Departure at 827.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=827.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=829.21] Aircraft 4 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=829.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=830.21] Aircraft 4 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=831.68] Aircraft 5 ARRIVED at BER from MOF | Battery: 90.00%
+[t=831.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+[t=832.21] Aircraft 3 ARRIVED at MER from MOF | Battery: 90.00%
+[t=832.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+[t=832.68] Aircraft 5 DEPARTED from BER to MOF | Battery: 90.00%
+[t=833.02] Aircraft 12 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=833.02] Boarded 4 passenger(s) onto Aircraft 12
+[t=833.02]  Scheduled flight | Aircraft 12 | DAV → BER | Departure at 834.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=833.02] Aircraft 14 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=833.02] Boarded 4 passenger(s) onto Aircraft 14
+[t=833.02]  Scheduled flight | Aircraft 14 | DAV → MER | Departure at 834.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to MER with 4 pax
+[t=833.21] Aircraft 3 DEPARTED from MER to MOF | Battery: 90.00%
+[t=834.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 12 not found in any vertiport.
+[t=834.02] Aircraft 14 DEPARTED from DAV to MER | Battery: 90.00%
+Aircraft 14 not found in any vertiport.
+[t=837.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=837.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=838.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=842.38] Aircraft 10 ARRIVED at DAV from MER | Battery: 90.00%
+[t=842.38] Aircraft 10 DEPARTED from MER to DAV | Battery: 90.00%
+[t=843.38] Aircraft 10 DEPARTED from DAV to MER | Battery: 90.00%
+[t=844.02] Aircraft 15 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=844.02] Boarded 4 passenger(s) onto Aircraft 15
+[t=844.02]  Scheduled flight | Aircraft 15 | DAV → SCZ | Departure at 845.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=845.02] Aircraft 15 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 15 not found in any vertiport.
+[t=846.21] Aircraft 4 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=846.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=846.21]  Scheduled flight | Aircraft 4 | MOF → SCZ | Departure at 847.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=847.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=847.38] Aircraft 8 ARRIVED at MER from SCZ | Battery: 90.00%
+ [t=847.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=847.38]  Scheduled flight | Aircraft 8 | MER → DAV | Departure at 848.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=848.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=853.38] Aircraft 9 ARRIVED at BER from MER | Battery: 90.00%
+[t=853.38] Aircraft 9 DEPARTED from MER to BER | Battery: 90.00%
+[t=854.38] Aircraft 9 DEPARTED from BER to MER | Battery: 90.00%
+[t=859.02] Aircraft 12 ARRIVED at BER from DAV | Battery: 90.00%
+[t=859.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+[t=859.21] Aircraft 2 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=859.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=859.21]  Scheduled flight | Aircraft 2 | SCZ → MER | Departure at 860.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=860.02] Aircraft 12 DEPARTED from BER to DAV | Battery: 90.00%
+[t=860.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=861.02] Aircraft 13 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=861.02] Boarded 4 passenger(s) onto Aircraft 13
+[t=861.02]  Scheduled flight | Aircraft 13 | DAV → BER | Departure at 862.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=862.02] Aircraft 13 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 13 not found in any vertiport.
+[t=864.21] Aircraft 1 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=864.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=864.21] Aircraft 4 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=864.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=865.21] Aircraft 1 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=865.21] Aircraft 4 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=871.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=871.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=871.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 872.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=872.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=877.77] Aircraft 6 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=877.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=877.77]  Scheduled flight | Aircraft 6 | MOF → MER | Departure at 878.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=878.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=880.68] Aircraft 5 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=880.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=880.68]  Scheduled flight | Aircraft 5 | MOF → DAV | Departure at 881.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=881.68] Aircraft 5 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=883.02] Aircraft 14 ARRIVED at MER from DAV | Battery: 90.00%
+[t=883.02] Aircraft 14 DEPARTED from DAV to MER | Battery: 90.00%
+[t=883.02] Aircraft 11 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=883.02] Boarded 4 passenger(s) onto Aircraft 11
+[t=883.02]  Scheduled flight | Aircraft 11 | DAV → SCZ | Departure at 884.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=884.02] Aircraft 14 DEPARTED from MER to DAV | Battery: 90.00%
+[t=884.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 11 not found in any vertiport.
+[t=885.21] Aircraft 4 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=885.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=885.21]  Scheduled flight | Aircraft 4 | MOF → BER | Departure at 886.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=886.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=887.02] Aircraft 13 ARRIVED at BER from DAV | Battery: 90.00%
+[t=887.02] Aircraft 13 DEPARTED from DAV to BER | Battery: 90.00%
+[t=888.02] Aircraft 13 DEPARTED from BER to DAV | Battery: 90.00%
+[t=892.38] Aircraft 10 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=892.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=892.38]  Scheduled flight | Aircraft 10 | MER → SCZ | Departure at 893.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to SCZ with 4 pax
+[t=893.38] Aircraft 10 DEPARTED from MER to SCZ | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=894.21] Aircraft 1 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=894.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=894.21]  Scheduled flight | Aircraft 1 | SCZ → BER | Departure at 895.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=895.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=900.21] Aircraft 4 ARRIVED at BER from MOF | Battery: 90.00%
+[t=900.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+[t=900.68] Aircraft 5 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=900.68] Aircraft 5 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=901.21] Aircraft 4 DEPARTED from BER to MOF | Battery: 90.00%
+[t=901.68] Aircraft 5 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=906.02] Aircraft 15 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=906.02] Aircraft 15 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=907.02] Aircraft 15 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=909.21] Aircraft 2 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=909.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=910.21] Aircraft 2 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=915.38] Aircraft 8 ARRIVED at DAV from MER | Battery: 90.00%
+[t=915.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+[t=916.38] Aircraft 8 DEPARTED from DAV to MER | Battery: 90.00%
+[t=917.68] Aircraft 5 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=917.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=917.68]  Scheduled flight | Aircraft 5 | MOF → SCZ | Departure at 918.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=918.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=922.77] Aircraft 6 ARRIVED at MER from MOF | Battery: 90.00%
+[t=922.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+[t=923.21] Aircraft 3 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=923.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=923.21]  Scheduled flight | Aircraft 3 | MOF → MER | Departure at 924.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=923.77] Aircraft 6 DEPARTED from MER to MOF | Battery: 90.00%
+[t=924.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=924.38] Aircraft 9 ARRIVED at MER from BER | Battery: 90.00%
+ [t=924.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=924.38]  Scheduled flight | Aircraft 9 | MER → BER | Departure at 925.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to BER with 4 pax
+[t=925.38] Aircraft 9 DEPARTED from MER to BER | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=932.21] Aircraft 1 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=932.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=933.21] Aircraft 1 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=935.68] Aircraft 5 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=935.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=936.68] Aircraft 5 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=940.02] Aircraft 12 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=940.02] Boarded 4 passenger(s) onto Aircraft 12
+[t=940.02]  Scheduled flight | Aircraft 12 | DAV → BER | Departure at 941.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=941.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 12 not found in any vertiport.
+[t=942.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=942.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=943.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=945.02] Aircraft 11 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=945.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=945.38] Aircraft 10 ARRIVED at SCZ from MER | Battery: 90.00%
+[t=945.38] Aircraft 10 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=946.02] Aircraft 11 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=946.38] Aircraft 10 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=949.21] Aircraft 4 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=949.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=949.21]  Scheduled flight | Aircraft 4 | MOF → DAV | Departure at 950.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=950.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=951.02] Aircraft 14 ARRIVED at DAV from MER | Battery: 90.00%
+ [t=951.02] Boarded 4 passenger(s) onto Aircraft 14
+[t=951.02]  Scheduled flight | Aircraft 14 | DAV → SCZ | Departure at 952.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=952.02] Aircraft 14 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 14 not found in any vertiport.
+[t=956.68] Aircraft 5 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=956.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=956.68]  Scheduled flight | Aircraft 5 | MOF → BER | Departure at 957.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=957.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=958.38] Aircraft 9 ARRIVED at BER from MER | Battery: 90.00%
+[t=958.38] Aircraft 9 DEPARTED from MER to BER | Battery: 90.00%
+[t=959.38] Aircraft 9 DEPARTED from BER to MER | Battery: 90.00%
+[t=962.21] Aircraft 1 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=962.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=962.21]  Scheduled flight | Aircraft 1 | SCZ → BER | Departure at 963.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=962.21] Aircraft 2 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=962.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=962.21]  Scheduled flight | Aircraft 2 | SCZ → MER | Departure at 963.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=963.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=963.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=965.38] Aircraft 8 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=965.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=965.38]  Scheduled flight | Aircraft 8 | MER → DAV | Departure at 966.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=966.02] Aircraft 12 ARRIVED at BER from DAV | Battery: 90.00%
+[t=966.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+[t=966.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=967.02] Aircraft 12 DEPARTED from BER to DAV | Battery: 90.00%
+[t=968.02] Aircraft 13 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=968.02] Boarded 4 passenger(s) onto Aircraft 13
+[t=968.02]  Scheduled flight | Aircraft 13 | DAV → BER | Departure at 969.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=968.21] Aircraft 3 ARRIVED at MER from MOF | Battery: 90.00%
+[t=968.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+[t=969.02] Aircraft 13 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 13 not found in any vertiport.
+[t=969.21] Aircraft 4 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=969.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=969.21] Aircraft 3 DEPARTED from MER to MOF | Battery: 90.00%
+[t=970.21] Aircraft 4 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=971.68] Aircraft 5 ARRIVED at BER from MOF | Battery: 90.00%
+[t=971.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+[t=972.68] Aircraft 5 DEPARTED from BER to MOF | Battery: 90.00%
+[t=976.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=976.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=976.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 977.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=977.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=979.02] Aircraft 15 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=979.02] Boarded 4 passenger(s) onto Aircraft 15
+[t=979.02]  Scheduled flight | Aircraft 15 | DAV → MER | Departure at 980.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to MER with 4 pax
+[t=980.02] Aircraft 15 DEPARTED from DAV to MER | Battery: 90.00%
+Aircraft 15 not found in any vertiport.
+[t=986.21] Aircraft 4 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=986.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=986.21]  Scheduled flight | Aircraft 4 | MOF → SCZ | Departure at 987.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=987.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=994.02] Aircraft 13 ARRIVED at BER from DAV | Battery: 90.00%
+[t=994.02] Aircraft 13 DEPARTED from DAV to BER | Battery: 90.00%
+[t=995.02] Aircraft 13 DEPARTED from BER to DAV | Battery: 90.00%
+[t=995.38] Aircraft 10 ARRIVED at MER from SCZ | Battery: 90.00%
+ [t=995.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=995.38]  Scheduled flight | Aircraft 10 | MER → SCZ | Departure at 996.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to SCZ with 4 pax
+[t=996.38] Aircraft 10 DEPARTED from MER to SCZ | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=1000.21] Aircraft 1 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=1000.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=1001.21] Aircraft 1 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1004.21] Aircraft 4 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=1004.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=1005.21] Aircraft 4 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=1012.21] Aircraft 2 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=1012.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=1013.02] Aircraft 14 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=1013.02] Aircraft 14 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=1013.21] Aircraft 2 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1013.77] Aircraft 6 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=1013.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=1013.77]  Scheduled flight | Aircraft 6 | MOF → MER | Departure at 1014.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=1014.02] Aircraft 14 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=1014.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=1018.02] Aircraft 11 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=1018.02] Boarded 4 passenger(s) onto Aircraft 11
+[t=1018.02]  Scheduled flight | Aircraft 11 | DAV → SCZ | Departure at 1019.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=1019.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 11 not found in any vertiport.
+[t=1020.68] Aircraft 5 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=1020.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=1020.68]  Scheduled flight | Aircraft 5 | MOF → DAV | Departure at 1021.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=1021.68] Aircraft 5 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=1025.21] Aircraft 4 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=1025.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=1025.21]  Scheduled flight | Aircraft 4 | MOF → BER | Departure at 1026.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=1026.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=1029.02] Aircraft 15 ARRIVED at MER from DAV | Battery: 90.00%
+[t=1029.02] Aircraft 15 DEPARTED from DAV to MER | Battery: 90.00%
+[t=1029.38] Aircraft 9 ARRIVED at MER from BER | Battery: 90.00%
+ [t=1029.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=1029.38]  Scheduled flight | Aircraft 9 | MER → MOF | Departure at 1030.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to MOF with 4 pax
+[t=1030.02] Aircraft 15 DEPARTED from MER to DAV | Battery: 90.00%
+[t=1030.21] Aircraft 1 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=1030.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=1030.21]  Scheduled flight | Aircraft 1 | SCZ → BER | Departure at 1031.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=1030.38] Aircraft 9 DEPARTED from MER to MOF | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=1031.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=1033.38] Aircraft 8 ARRIVED at DAV from MER | Battery: 90.00%
+[t=1033.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+[t=1034.38] Aircraft 8 DEPARTED from DAV to MER | Battery: 90.00%
+[t=1040.21] Aircraft 4 ARRIVED at BER from MOF | Battery: 90.00%
+[t=1040.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+[t=1040.68] Aircraft 5 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=1040.68] Aircraft 5 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=1041.21] Aircraft 4 DEPARTED from BER to MOF | Battery: 90.00%
+[t=1041.68] Aircraft 5 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=1047.02] Aircraft 12 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=1047.02] Boarded 4 passenger(s) onto Aircraft 12
+[t=1047.02]  Scheduled flight | Aircraft 12 | DAV → BER | Departure at 1048.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=1047.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=1047.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=1048.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 12 not found in any vertiport.
+[t=1048.38] Aircraft 10 ARRIVED at SCZ from MER | Battery: 90.00%
+[t=1048.38] Aircraft 10 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1048.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=1049.38] Aircraft 10 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=1057.68] Aircraft 5 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=1057.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=1057.68]  Scheduled flight | Aircraft 5 | MOF → SCZ | Departure at 1058.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=1058.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=1058.77] Aircraft 6 ARRIVED at MER from MOF | Battery: 90.00%
+[t=1058.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+[t=1059.21] Aircraft 3 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=1059.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=1059.21]  Scheduled flight | Aircraft 3 | MOF → MER | Departure at 1060.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=1059.77] Aircraft 6 DEPARTED from MER to MOF | Battery: 90.00%
+[t=1060.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=1065.21] Aircraft 2 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=1065.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=1065.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 1066.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=1066.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=1068.21] Aircraft 1 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=1068.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=1069.21] Aircraft 1 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1073.02] Aircraft 12 ARRIVED at BER from DAV | Battery: 90.00%
+[t=1073.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+[t=1074.02] Aircraft 12 DEPARTED from BER to DAV | Battery: 90.00%
+[t=1075.02] Aircraft 13 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=1075.02] Boarded 4 passenger(s) onto Aircraft 13
+[t=1075.02]  Scheduled flight | Aircraft 13 | DAV → SCZ | Departure at 1076.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=1075.68] Aircraft 5 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=1075.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=1076.02] Aircraft 13 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 13 not found in any vertiport.
+[t=1076.68] Aircraft 5 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=1080.02] Aircraft 11 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=1080.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=1081.02] Aircraft 11 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=1081.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=1081.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=1081.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 1082.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=1082.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=1083.38] Aircraft 8 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=1083.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=1083.38]  Scheduled flight | Aircraft 8 | MER → DAV | Departure at 1084.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=1084.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=1086.02] Aircraft 14 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=1086.02] Boarded 4 passenger(s) onto Aircraft 14
+[t=1086.02]  Scheduled flight | Aircraft 14 | DAV → BER | Departure at 1087.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=1087.02] Aircraft 14 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 14 not found in any vertiport.
+[t=1089.21] Aircraft 4 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=1089.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=1089.21]  Scheduled flight | Aircraft 4 | MOF → DAV | Departure at 1090.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=1090.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=1096.68] Aircraft 5 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=1096.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=1096.68]  Scheduled flight | Aircraft 5 | MOF → BER | Departure at 1097.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=1097.02] Aircraft 15 ARRIVED at DAV from MER | Battery: 90.00%
+ [t=1097.02] Boarded 4 passenger(s) onto Aircraft 15
+[t=1097.02]  Scheduled flight | Aircraft 15 | DAV → MER | Departure at 1098.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to MER with 4 pax
+[t=1097.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=1098.02] Aircraft 15 DEPARTED from DAV to MER | Battery: 90.00%
+Aircraft 15 not found in any vertiport.
+[t=1098.21] Aircraft 1 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=1098.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=1098.21]  Scheduled flight | Aircraft 1 | SCZ → MER | Departure at 1099.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=1098.38] Aircraft 10 ARRIVED at MER from SCZ | Battery: 90.00%
+ [t=1098.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=1098.38]  Scheduled flight | Aircraft 10 | MER → BER | Departure at 1099.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to BER with 4 pax
+[t=1099.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=1099.38] Aircraft 10 DEPARTED from MER to BER | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=1103.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=1103.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=1104.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1104.21] Aircraft 3 ARRIVED at MER from MOF | Battery: 90.00%
+[t=1104.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+[t=1105.21] Aircraft 3 DEPARTED from MER to MOF | Battery: 90.00%
+[t=1109.21] Aircraft 4 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=1109.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=1110.21] Aircraft 4 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=1111.68] Aircraft 5 ARRIVED at BER from MOF | Battery: 90.00%
+[t=1111.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+[t=1112.02] Aircraft 14 ARRIVED at BER from DAV | Battery: 90.00%
+[t=1112.02] Aircraft 14 DEPARTED from DAV to BER | Battery: 90.00%
+[t=1112.68] Aircraft 5 DEPARTED from BER to MOF | Battery: 90.00%
+[t=1113.02] Aircraft 14 DEPARTED from BER to DAV | Battery: 90.00%
+[t=1120.38] Aircraft 9 ARRIVED at MOF from MER | Battery: 90.00%
+[t=1120.38] Aircraft 9 DEPARTED from MER to MOF | Battery: 90.00%
+[t=1121.38] Aircraft 9 DEPARTED from MOF to MER | Battery: 90.00%
+[t=1126.21] Aircraft 4 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=1126.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=1126.21]  Scheduled flight | Aircraft 4 | MOF → SCZ | Departure at 1127.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=1127.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=1132.38] Aircraft 10 ARRIVED at BER from MER | Battery: 90.00%
+[t=1132.38] Aircraft 10 DEPARTED from MER to BER | Battery: 90.00%
+[t=1133.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=1133.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=1133.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 1134.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=1133.38] Aircraft 10 DEPARTED from BER to MER | Battery: 90.00%
+[t=1134.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=1137.02] Aircraft 13 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=1137.02] Aircraft 13 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=1138.02] Aircraft 13 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=1144.21] Aircraft 4 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=1144.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=1145.21] Aircraft 4 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=1147.02] Aircraft 15 ARRIVED at MER from DAV | Battery: 90.00%
+[t=1147.02] Aircraft 15 DEPARTED from DAV to MER | Battery: 90.00%
+[t=1148.02] Aircraft 15 DEPARTED from MER to DAV | Battery: 90.00%
+[t=1148.21] Aircraft 1 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=1148.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=1149.21] Aircraft 1 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1149.77] Aircraft 6 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=1149.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=1149.77]  Scheduled flight | Aircraft 6 | MOF → DAV | Departure at 1150.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=1150.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=1151.38] Aircraft 8 ARRIVED at DAV from MER | Battery: 90.00%
+[t=1151.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+[t=1152.38] Aircraft 8 DEPARTED from DAV to MER | Battery: 90.00%
+[t=1152.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=1152.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=1153.02] Aircraft 11 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=1153.02] Boarded 4 passenger(s) onto Aircraft 11
+[t=1153.02]  Scheduled flight | Aircraft 11 | DAV → SCZ | Departure at 1154.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=1153.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=1154.02] Aircraft 12 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=1154.02] Boarded 4 passenger(s) onto Aircraft 12
+[t=1154.02]  Scheduled flight | Aircraft 12 | DAV → BER | Departure at 1155.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=1154.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 11 not found in any vertiport.
+[t=1155.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 12 not found in any vertiport.
+[t=1160.68] Aircraft 5 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=1160.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=1160.68]  Scheduled flight | Aircraft 5 | MOF → BER | Departure at 1161.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=1161.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=1165.21] Aircraft 4 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=1165.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=1165.21]  Scheduled flight | Aircraft 4 | MOF → SCZ | Departure at 1166.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=1165.38] Aircraft 9 ARRIVED at MER from MOF | Battery: 90.00%
+ [t=1165.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=1165.38]  Scheduled flight | Aircraft 9 | MER → SCZ | Departure at 1166.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to SCZ with 4 pax
+[t=1166.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=1166.38] Aircraft 9 DEPARTED from MER to SCZ | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=1169.77] Aircraft 6 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=1169.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=1170.77] Aircraft 6 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=1171.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=1171.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=1172.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1175.68] Aircraft 5 ARRIVED at BER from MOF | Battery: 90.00%
+[t=1175.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+[t=1176.68] Aircraft 5 DEPARTED from BER to MOF | Battery: 90.00%
+[t=1180.02] Aircraft 12 ARRIVED at BER from DAV | Battery: 90.00%
+[t=1180.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+[t=1181.02] Aircraft 12 DEPARTED from BER to DAV | Battery: 90.00%
+[t=1183.21] Aircraft 4 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=1183.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=1184.21] Aircraft 4 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=1186.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=1186.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=1186.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 1187.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=1186.77] Aircraft 6 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=1186.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=1186.77]  Scheduled flight | Aircraft 6 | MOF → MER | Departure at 1187.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=1187.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=1187.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=1193.02] Aircraft 14 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=1193.02] Boarded 4 passenger(s) onto Aircraft 14
+[t=1193.02]  Scheduled flight | Aircraft 14 | DAV → SCZ | Departure at 1194.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=1194.02] Aircraft 14 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 14 not found in any vertiport.
+[t=1195.21] Aircraft 3 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=1195.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=1195.21]  Scheduled flight | Aircraft 3 | MOF → DAV | Departure at 1196.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=1196.21] Aircraft 3 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=1201.21] Aircraft 1 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=1201.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=1201.21]  Scheduled flight | Aircraft 1 | SCZ → MER | Departure at 1202.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=1201.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=1201.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=1201.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 1202.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=1201.38] Aircraft 8 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=1201.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=1201.38]  Scheduled flight | Aircraft 8 | MER → DAV | Departure at 1202.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=1202.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=1202.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=1202.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=1203.38] Aircraft 10 ARRIVED at MER from BER | Battery: 90.00%
+ [t=1203.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=1203.38]  Scheduled flight | Aircraft 10 | MER → MOF | Departure at 1204.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to MOF with 4 pax
+[t=1204.21] Aircraft 4 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=1204.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=1204.21]  Scheduled flight | Aircraft 4 | MOF → BER | Departure at 1205.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=1204.38] Aircraft 10 DEPARTED from MER to MOF | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=1205.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=1210.02] Aircraft 13 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=1210.02] Boarded 4 passenger(s) onto Aircraft 13
+[t=1210.02]  Scheduled flight | Aircraft 13 | DAV → BER | Departure at 1211.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=1211.02] Aircraft 13 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 13 not found in any vertiport.
+[t=1215.02] Aircraft 15 ARRIVED at DAV from MER | Battery: 90.00%
+ [t=1215.02] Boarded 4 passenger(s) onto Aircraft 15
+[t=1215.02]  Scheduled flight | Aircraft 15 | DAV → MER | Departure at 1216.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to MER with 4 pax
+[t=1215.02] Aircraft 11 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=1215.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=1215.21] Aircraft 3 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=1215.21] Aircraft 3 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=1216.02] Aircraft 15 DEPARTED from DAV to MER | Battery: 90.00%
+Aircraft 15 not found in any vertiport.
+[t=1216.02] Aircraft 11 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=1216.21] Aircraft 3 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=1218.38] Aircraft 9 ARRIVED at SCZ from MER | Battery: 90.00%
+[t=1218.38] Aircraft 9 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1219.21] Aircraft 4 ARRIVED at BER from MOF | Battery: 90.00%
+[t=1219.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+[t=1219.38] Aircraft 9 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=1220.21] Aircraft 4 DEPARTED from BER to MOF | Battery: 90.00%
+[t=1224.68] Aircraft 5 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=1224.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=1224.68]  Scheduled flight | Aircraft 5 | MOF → SCZ | Departure at 1225.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=1225.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=1231.77] Aircraft 6 ARRIVED at MER from MOF | Battery: 90.00%
+[t=1231.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+[t=1232.21] Aircraft 3 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=1232.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=1232.21]  Scheduled flight | Aircraft 3 | MOF → MER | Departure at 1233.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=1232.77] Aircraft 6 DEPARTED from MER to MOF | Battery: 90.00%
+[t=1233.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=1236.02] Aircraft 13 ARRIVED at BER from DAV | Battery: 90.00%
+[t=1236.02] Aircraft 13 DEPARTED from DAV to BER | Battery: 90.00%
+[t=1237.02] Aircraft 13 DEPARTED from BER to DAV | Battery: 90.00%
+[t=1239.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=1239.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=1240.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1242.68] Aircraft 5 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=1242.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=1243.68] Aircraft 5 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=1251.21] Aircraft 1 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=1251.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=1252.21] Aircraft 1 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1255.02] Aircraft 14 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=1255.02] Aircraft 14 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=1256.02] Aircraft 14 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=1257.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=1257.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=1258.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=1261.02] Aircraft 12 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=1261.02] Boarded 4 passenger(s) onto Aircraft 12
+[t=1261.02]  Scheduled flight | Aircraft 12 | DAV → SCZ | Departure at 1262.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=1262.02] Aircraft 12 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 12 not found in any vertiport.
+[t=1263.68] Aircraft 5 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=1263.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=1263.68]  Scheduled flight | Aircraft 5 | MOF → DAV | Departure at 1264.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=1264.68] Aircraft 5 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=1265.02] Aircraft 15 ARRIVED at MER from DAV | Battery: 90.00%
+[t=1265.02] Aircraft 15 DEPARTED from DAV to MER | Battery: 90.00%
+[t=1266.02] Aircraft 15 DEPARTED from MER to DAV | Battery: 90.00%
+[t=1268.21] Aircraft 4 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=1268.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=1268.21]  Scheduled flight | Aircraft 4 | MOF → BER | Departure at 1269.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=1268.38] Aircraft 9 ARRIVED at MER from SCZ | Battery: 90.00%
+ [t=1268.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=1268.38]  Scheduled flight | Aircraft 9 | MER → SCZ | Departure at 1269.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to SCZ with 4 pax
+[t=1269.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=1269.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=1269.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 1270.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=1269.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=1269.38] Aircraft 8 ARRIVED at DAV from MER | Battery: 90.00%
+[t=1269.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+[t=1269.38] Aircraft 9 DEPARTED from MER to SCZ | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=1270.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=1270.38] Aircraft 8 DEPARTED from DAV to MER | Battery: 90.00%
+[t=1277.21] Aircraft 3 ARRIVED at MER from MOF | Battery: 90.00%
+[t=1277.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+[t=1278.21] Aircraft 3 DEPARTED from MER to MOF | Battery: 90.00%
+[t=1283.21] Aircraft 4 ARRIVED at BER from MOF | Battery: 90.00%
+[t=1283.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+[t=1283.68] Aircraft 5 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=1283.68] Aircraft 5 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=1284.21] Aircraft 4 DEPARTED from BER to MOF | Battery: 90.00%
+[t=1284.68] Aircraft 5 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=1288.02] Aircraft 11 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=1288.02] Boarded 4 passenger(s) onto Aircraft 11
+[t=1288.02]  Scheduled flight | Aircraft 11 | DAV → BER | Departure at 1289.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=1289.02] Aircraft 11 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 11 not found in any vertiport.
+[t=1291.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=1291.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=1291.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 1292.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=1292.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=1294.38] Aircraft 10 ARRIVED at MOF from MER | Battery: 90.00%
+[t=1294.38] Aircraft 10 DEPARTED from MER to MOF | Battery: 90.00%
+[t=1295.38] Aircraft 10 DEPARTED from MOF to MER | Battery: 90.00%
+[t=1300.68] Aircraft 5 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=1300.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=1300.68]  Scheduled flight | Aircraft 5 | MOF → SCZ | Departure at 1301.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=1301.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=1304.21] Aircraft 1 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=1304.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=1304.21]  Scheduled flight | Aircraft 1 | SCZ → MER | Departure at 1305.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=1305.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=1307.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=1307.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=1308.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1314.02] Aircraft 11 ARRIVED at BER from DAV | Battery: 90.00%
+[t=1314.02] Aircraft 11 DEPARTED from DAV to BER | Battery: 90.00%
+[t=1315.02] Aircraft 11 DEPARTED from BER to DAV | Battery: 90.00%
+[t=1317.02] Aircraft 13 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=1317.02] Boarded 4 passenger(s) onto Aircraft 13
+[t=1317.02]  Scheduled flight | Aircraft 13 | DAV → SCZ | Departure at 1318.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=1318.02] Aircraft 13 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 13 not found in any vertiport.
+[t=1318.68] Aircraft 5 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=1318.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=1319.38] Aircraft 8 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=1319.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=1319.38]  Scheduled flight | Aircraft 8 | MER → BER | Departure at 1320.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to BER with 4 pax
+[t=1319.68] Aircraft 5 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=1320.38] Aircraft 8 DEPARTED from MER to BER | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=1321.38] Aircraft 9 ARRIVED at SCZ from MER | Battery: 90.00%
+[t=1321.38] Aircraft 9 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1322.38] Aircraft 9 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=1322.77] Aircraft 6 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=1322.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=1322.77]  Scheduled flight | Aircraft 6 | MOF → DAV | Departure at 1323.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=1323.02] Aircraft 12 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=1323.02] Aircraft 12 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=1323.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=1324.02] Aircraft 12 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=1328.02] Aircraft 14 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=1328.02] Boarded 4 passenger(s) onto Aircraft 14
+[t=1328.02]  Scheduled flight | Aircraft 14 | DAV → BER | Departure at 1329.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to BER with 4 pax
+[t=1329.02] Aircraft 14 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 14 not found in any vertiport.
+[t=1332.21] Aircraft 4 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=1332.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=1332.21]  Scheduled flight | Aircraft 4 | MOF → BER | Departure at 1333.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=1333.02] Aircraft 15 ARRIVED at DAV from MER | Battery: 90.00%
+ [t=1333.02] Boarded 4 passenger(s) onto Aircraft 15
+[t=1333.02]  Scheduled flight | Aircraft 15 | DAV → MER | Departure at 1334.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to MER with 4 pax
+[t=1333.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=1334.02] Aircraft 15 DEPARTED from DAV to MER | Battery: 90.00%
+Aircraft 15 not found in any vertiport.
+[t=1337.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=1337.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=1337.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 1338.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=1338.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=1339.38] Aircraft 10 ARRIVED at MER from MOF | Battery: 90.00%
+ [t=1339.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=1339.38]  Scheduled flight | Aircraft 10 | MER → DAV | Departure at 1340.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=1339.68] Aircraft 5 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=1339.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=1339.68]  Scheduled flight | Aircraft 5 | MOF → SCZ | Departure at 1340.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=1340.38] Aircraft 10 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=1340.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=1342.77] Aircraft 6 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=1342.77] Aircraft 6 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=1343.77] Aircraft 6 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=1347.21] Aircraft 4 ARRIVED at BER from MOF | Battery: 90.00%
+[t=1347.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+[t=1348.21] Aircraft 4 DEPARTED from BER to MOF | Battery: 90.00%
+[t=1353.38] Aircraft 8 ARRIVED at BER from MER | Battery: 90.00%
+[t=1353.38] Aircraft 8 DEPARTED from MER to BER | Battery: 90.00%
+[t=1354.02] Aircraft 14 ARRIVED at BER from DAV | Battery: 90.00%
+[t=1354.02] Aircraft 14 DEPARTED from DAV to BER | Battery: 90.00%
+[t=1354.21] Aircraft 1 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=1354.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=1354.38] Aircraft 8 DEPARTED from BER to MER | Battery: 90.00%
+[t=1355.02] Aircraft 14 DEPARTED from BER to DAV | Battery: 90.00%
+[t=1355.21] Aircraft 1 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1357.68] Aircraft 5 ARRIVED at SCZ from MOF | Battery: 90.00%
+[t=1357.68] Aircraft 5 DEPARTED from MOF to SCZ | Battery: 90.00%
+[t=1358.68] Aircraft 5 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=1359.77] Aircraft 6 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=1359.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=1359.77]  Scheduled flight | Aircraft 6 | MOF → MER | Departure at 1360.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=1360.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=1362.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=1362.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=1363.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=1368.21] Aircraft 3 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=1368.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=1368.21]  Scheduled flight | Aircraft 3 | MOF → DAV | Departure at 1369.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=1369.21] Aircraft 3 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=1371.38] Aircraft 9 ARRIVED at MER from SCZ | Battery: 90.00%
+ [t=1371.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=1371.38]  Scheduled flight | Aircraft 9 | MER → DAV | Departure at 1372.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=1372.38] Aircraft 9 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=1375.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=1375.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=1376.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1378.68] Aircraft 5 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=1378.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=1378.68]  Scheduled flight | Aircraft 5 | MOF → BER | Departure at 1379.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=1379.02] Aircraft 13 ARRIVED at SCZ from DAV | Battery: 90.00%
+[t=1379.02] Aircraft 13 DEPARTED from DAV to SCZ | Battery: 90.00%
+[t=1379.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=1380.02] Aircraft 13 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=1383.02] Aircraft 15 ARRIVED at MER from DAV | Battery: 90.00%
+[t=1383.02] Aircraft 15 DEPARTED from DAV to MER | Battery: 90.00%
+[t=1384.02] Aircraft 15 DEPARTED from MER to DAV | Battery: 90.00%
+[t=1388.21] Aircraft 3 ARRIVED at DAV from MOF | Battery: 90.00%
+[t=1388.21] Aircraft 3 DEPARTED from MOF to DAV | Battery: 90.00%
+[t=1389.21] Aircraft 3 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=1393.68] Aircraft 5 ARRIVED at BER from MOF | Battery: 90.00%
+[t=1393.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+[t=1394.68] Aircraft 5 DEPARTED from BER to MOF | Battery: 90.00%
+[t=1395.02] Aircraft 11 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=1395.02] Boarded 4 passenger(s) onto Aircraft 11
+[t=1395.02]  Scheduled flight | Aircraft 11 | DAV → SCZ | Departure at 1396.02 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 4 pax
+[t=1396.02] Aircraft 12 ARRIVED at DAV from SCZ | Battery: 90.00%
+ [t=1396.02] Boarded 3 passenger(s) onto Aircraft 12
+[t=1396.02]  Scheduled flight | Aircraft 12 | DAV → BER | Departure at 1397.02 | Passengers: 3 | Battery: 90.00%
+Scheduled flight from DAV to BER with 3 pax
+[t=1396.02] Aircraft 11 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 11 not found in any vertiport.
+[t=1396.21] Aircraft 4 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=1396.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=1396.21]  Scheduled flight | Aircraft 4 | MOF → SCZ | Departure at 1397.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=1396.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=1396.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=1396.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 1397.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=1397.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+Aircraft 12 not found in any vertiport.
+[t=1397.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=1397.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=1404.77] Aircraft 6 ARRIVED at MER from MOF | Battery: 90.00%
+[t=1404.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+[t=1405.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=1405.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=1405.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 1406.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=1405.21] Aircraft 3 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=1405.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=1405.21]  Scheduled flight | Aircraft 3 | MOF → MER | Departure at 1406.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=1405.77] Aircraft 6 DEPARTED from MER to MOF | Battery: 90.00%
+[t=1406.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=1406.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=1407.21] Aircraft 1 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=1407.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=1407.21]  Scheduled flight | Aircraft 1 | SCZ → MER | Departure at 1408.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=1407.38] Aircraft 10 ARRIVED at DAV from MER | Battery: 90.00%
+[t=1407.38] Aircraft 10 DEPARTED from MER to DAV | Battery: 90.00%
+[t=1408.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=1408.38] Aircraft 10 DEPARTED from DAV to MER | Battery: 90.00%
+[t=1414.21] Aircraft 4 ARRIVED at SCZ from MOF | Battery: 90.00%
+Return flight EMPTY from SCZ to MOF
+[t=1415.21] Aircraft 4 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=1422.02] Aircraft 12 ARRIVED at BER from DAV | Battery: 90.00%
+[t=1422.02] Aircraft 12 DEPARTED from DAV to BER | Battery: 90.00%
+[t=1423.02] Aircraft 12 DEPARTED from BER to DAV | Battery: 90.00%
+[t=1424.38] Aircraft 8 ARRIVED at MER from BER | Battery: 90.00%
+ [t=1424.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=1424.38]  Scheduled flight | Aircraft 8 | MER → BER | Departure at 1425.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to BER with 4 pax
+[t=1425.38] Aircraft 8 DEPARTED from MER to BER | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=1435.02] Aircraft 14 ARRIVED at DAV from BER | Battery: 90.00%
+ [t=1435.02] Boarded 2 passenger(s) onto Aircraft 14
+[t=1435.02]  Scheduled flight | Aircraft 14 | DAV → SCZ | Departure at 1436.02 | Passengers: 2 | Battery: 90.00%
+Scheduled flight from DAV to SCZ with 2 pax
+[t=1435.21] Aircraft 4 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=1435.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=1435.21]  Scheduled flight | Aircraft 4 | MOF → DAV | Departure at 1436.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=1436.02] Aircraft 14 DEPARTED from DAV to SCZ | Battery: 90.00%
+Aircraft 14 not found in any vertiport.
+[t=1436.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=1439.38] Aircraft 9 ARRIVED at DAV from MER | Battery: 90.00%
+Return flight EMPTY from DAV to MER
+[t=1440.38] Aircraft 9 DEPARTED from DAV to MER | Battery: 90.00%
+[t=1442.68] Aircraft 5 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=1442.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=1442.68]  Scheduled flight | Aircraft 5 | MOF → BER | Departure at 1443.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=1443.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=1443.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=1443.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=1444.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1450.21] Aircraft 3 ARRIVED at MER from MOF | Battery: 90.00%
+[t=1450.21] Aircraft 3 DEPARTED from MOF to MER | Battery: 90.00%
+[t=1451.02] Aircraft 15 ARRIVED at DAV from MER | Battery: 90.00%
+[t=1451.21] Aircraft 3 DEPARTED from MER to MOF | Battery: 90.00%
+[t=1452.02] Aircraft 13 ARRIVED at DAV from SCZ | Battery: 90.00%
+[t=1455.21] Aircraft 4 ARRIVED at DAV from MOF | Battery: 90.00%
+Return flight EMPTY from DAV to MOF
+[t=1456.21] Aircraft 4 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=1457.02] Aircraft 11 ARRIVED at SCZ from DAV | Battery: 90.00%
+Return flight EMPTY from SCZ to DAV
+[t=1457.21] Aircraft 1 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=1457.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=1457.38] Aircraft 10 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=1457.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=1457.38]  Scheduled flight | Aircraft 10 | MER → SCZ | Departure at 1458.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to SCZ with 4 pax
+[t=1457.68] Aircraft 5 ARRIVED at BER from MOF | Battery: 90.00%
+[t=1457.68] Aircraft 5 DEPARTED from MOF to BER | Battery: 90.00%
+[t=1458.02] Aircraft 11 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=1458.21] Aircraft 1 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1458.38] Aircraft 10 DEPARTED from MER to SCZ | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=1458.38] Aircraft 8 ARRIVED at BER from MER | Battery: 90.00%
+[t=1458.38] Aircraft 8 DEPARTED from MER to BER | Battery: 90.00%
+[t=1458.68] Aircraft 5 DEPARTED from BER to MOF | Battery: 90.00%
+[t=1459.38] Aircraft 8 DEPARTED from BER to MER | Battery: 90.00%
+[t=1467.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=1467.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=1468.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=1472.21] Aircraft 4 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=1472.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=1472.21]  Scheduled flight | Aircraft 4 | MOF → SCZ | Departure at 1473.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=1473.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=1473.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=1473.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 1474.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=1473.21] Aircraft 4 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=1474.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=1489.38] Aircraft 9 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=1489.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=1489.38]  Scheduled flight | Aircraft 9 | MER → DAV | Departure at 1490.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=1490.21] Aircraft 4 ARRIVED at SCZ from MOF | Battery: 90.00%
+Return flight EMPTY from SCZ to MOF
+[t=1490.38] Aircraft 9 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=1491.21] Aircraft 4 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=1495.77] Aircraft 6 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=1495.77] Boarded 4 passenger(s) onto Aircraft 6
+[t=1495.77]  Scheduled flight | Aircraft 6 | MOF → MER | Departure at 1496.77 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to MER with 4 pax
+[t=1496.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 6 not found in any vertiport.
+[t=1497.02] Aircraft 14 ARRIVED at SCZ from DAV | Battery: 90.00%
+Return flight EMPTY from SCZ to DAV
+[t=1498.02] Aircraft 14 DEPARTED from SCZ to DAV | Battery: 90.00%
+[t=1501.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=1501.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=1501.38]  Scheduled flight | Aircraft 7 | BER → SCZ | Departure at 1502.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to SCZ with 4 pax
+[t=1502.38] Aircraft 7 DEPARTED from BER to SCZ | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=1503.02] Aircraft 12 ARRIVED at DAV from BER | Battery: 90.00%
+[t=1506.68] Aircraft 5 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=1506.68] Boarded 4 passenger(s) onto Aircraft 5
+[t=1506.68]  Scheduled flight | Aircraft 5 | MOF → DAV | Departure at 1507.68 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 4 pax
+[t=1507.68] Aircraft 5 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=1510.21] Aircraft 1 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=1510.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=1510.21]  Scheduled flight | Aircraft 1 | SCZ → MER | Departure at 1511.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=1510.38] Aircraft 10 ARRIVED at SCZ from MER | Battery: 90.00%
+[t=1510.38] Aircraft 10 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1511.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=1511.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=1511.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=1511.21] Aircraft 4 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=1511.21] Boarded 4 passenger(s) onto Aircraft 4
+[t=1511.21]  Scheduled flight | Aircraft 4 | MOF → BER | Departure at 1512.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to BER with 4 pax
+[t=1511.38] Aircraft 10 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=1512.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1512.21] Aircraft 4 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=1526.21] Aircraft 4 ARRIVED at BER from MOF | Battery: 90.00%
+Return flight EMPTY from BER to MOF
+[t=1526.68] Aircraft 5 ARRIVED at DAV from MOF | Battery: 90.00%
+Return flight EMPTY from DAV to MOF
+[t=1527.21] Aircraft 4 DEPARTED from BER to MOF | Battery: 90.00%
+[t=1527.68] Aircraft 5 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=1529.38] Aircraft 8 ARRIVED at MER from BER | Battery: 90.00%
+ [t=1529.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=1529.38]  Scheduled flight | Aircraft 8 | MER → MOF | Departure at 1530.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to MOF with 4 pax
+[t=1530.02] Aircraft 11 ARRIVED at DAV from SCZ | Battery: 90.00%
+[t=1530.38] Aircraft 8 DEPARTED from MER to MOF | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=1531.38] Aircraft 7 ARRIVED at SCZ from BER | Battery: 90.00%
+[t=1531.38] Aircraft 7 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1532.38] Aircraft 7 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=1540.77] Aircraft 6 ARRIVED at MER from MOF | Battery: 90.00%
+[t=1540.77] Aircraft 6 DEPARTED from MOF to MER | Battery: 90.00%
+[t=1541.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=1541.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=1541.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 1542.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=1541.21] Aircraft 3 ARRIVED at MOF from MER | Battery: 90.00%
+ [t=1541.21] Boarded 4 passenger(s) onto Aircraft 3
+[t=1541.21]  Scheduled flight | Aircraft 3 | MOF → SCZ | Departure at 1542.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MOF to SCZ with 4 pax
+[t=1541.77] Aircraft 6 DEPARTED from MER to MOF | Battery: 90.00%
+[t=1542.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=1542.21] Aircraft 3 DEPARTED from MOF to SCZ | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=1543.68] Aircraft 5 ARRIVED at MOF from DAV | Battery: 90.00%
+ [t=1543.68] Boarded 2 passenger(s) onto Aircraft 5
+[t=1543.68]  Scheduled flight | Aircraft 5 | MOF → MER | Departure at 1544.68 | Passengers: 2 | Battery: 90.00%
+Scheduled flight from MOF to MER with 2 pax
+[t=1544.68] Aircraft 5 DEPARTED from MOF to MER | Battery: 90.00%
+Aircraft 5 not found in any vertiport.
+[t=1557.38] Aircraft 9 ARRIVED at DAV from MER | Battery: 90.00%
+Return flight EMPTY from DAV to MER
+[t=1558.38] Aircraft 9 DEPARTED from DAV to MER | Battery: 90.00%
+[t=1559.21] Aircraft 3 ARRIVED at SCZ from MOF | Battery: 90.00%
+Return flight EMPTY from SCZ to MOF
+[t=1560.21] Aircraft 1 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=1560.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=1560.21] Aircraft 3 DEPARTED from SCZ to MOF | Battery: 90.00%
+[t=1560.38] Aircraft 10 ARRIVED at MER from SCZ | Battery: 90.00%
+ [t=1560.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=1560.38]  Scheduled flight | Aircraft 10 | MER → BER | Departure at 1561.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to BER with 4 pax
+[t=1561.21] Aircraft 1 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1561.38] Aircraft 10 DEPARTED from MER to BER | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=1569.38] Aircraft 7 ARRIVED at BER from SCZ | Battery: 90.00%
+ [t=1569.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=1569.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 1570.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=1570.02] Aircraft 14 ARRIVED at DAV from SCZ | Battery: 90.00%
+[t=1570.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=1575.21] Aircraft 4 ARRIVED at MOF from BER | Battery: 90.00%
+ [t=1575.21] Boarded 2 passenger(s) onto Aircraft 4
+[t=1575.21]  Scheduled flight | Aircraft 4 | MOF → DAV | Departure at 1576.21 | Passengers: 2 | Battery: 90.00%
+Scheduled flight from MOF to DAV with 2 pax
+[t=1576.21] Aircraft 4 DEPARTED from MOF to DAV | Battery: 90.00%
+Aircraft 4 not found in any vertiport.
+[t=1579.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=1579.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=1580.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1580.21] Aircraft 3 ARRIVED at MOF from SCZ | Battery: 90.00%
+ [t=1580.21] Boarded 1 passenger(s) onto Aircraft 3
+[t=1580.21]  Scheduled flight | Aircraft 3 | MOF → BER | Departure at 1581.21 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from MOF to BER with 1 pax
+[t=1581.21] Aircraft 3 DEPARTED from MOF to BER | Battery: 90.00%
+Aircraft 3 not found in any vertiport.
+[t=1588.68] Aircraft 5 ARRIVED at MER from MOF | Battery: 90.00%
+[t=1588.68] Aircraft 5 DEPARTED from MOF to MER | Battery: 90.00%
+[t=1589.68] Aircraft 5 DEPARTED from MER to MOF | Battery: 90.00%
+[t=1594.38] Aircraft 10 ARRIVED at BER from MER | Battery: 90.00%
+[t=1594.38] Aircraft 10 DEPARTED from MER to BER | Battery: 90.00%
+[t=1595.21] Aircraft 4 ARRIVED at DAV from MOF | Battery: 90.00%
+Return flight EMPTY from DAV to MOF
+[t=1595.21] Aircraft 3 ARRIVED at BER from MOF | Battery: 90.00%
+Return flight EMPTY from BER to MOF
+[t=1595.38] Aircraft 10 DEPARTED from BER to MER | Battery: 90.00%
+[t=1596.21] Aircraft 3 DEPARTED from BER to MOF | Battery: 90.00%
+[t=1596.21] Aircraft 4 DEPARTED from DAV to MOF | Battery: 90.00%
+[t=1607.38] Aircraft 9 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=1607.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=1607.38]  Scheduled flight | Aircraft 9 | MER → DAV | Departure at 1608.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=1608.38] Aircraft 9 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=1609.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=1609.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=1609.21]  Scheduled flight | Aircraft 2 | SCZ → MER | Departure at 1610.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=1610.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=1612.21] Aircraft 4 ARRIVED at MOF from DAV | Battery: 90.00%
+[t=1613.21] Aircraft 1 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=1613.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=1613.21]  Scheduled flight | Aircraft 1 | SCZ → BER | Departure at 1614.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=1614.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=1620.38] Aircraft 8 ARRIVED at MOF from MER | Battery: 90.00%
+Return flight EMPTY from MOF to MER
+[t=1621.38] Aircraft 8 DEPARTED from MOF to MER | Battery: 90.00%
+[t=1631.77] Aircraft 6 ARRIVED at MOF from MER | Battery: 90.00%
+[t=1640.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=1640.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=1641.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=1644.21] Aircraft 3 ARRIVED at MOF from BER | Battery: 90.00%
+[t=1651.21] Aircraft 1 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=1651.21] Aircraft 1 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=1652.21] Aircraft 1 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1659.21] Aircraft 2 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=1659.21] Aircraft 2 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=1660.21] Aircraft 2 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1665.38] Aircraft 10 ARRIVED at MER from BER | Battery: 90.00%
+ [t=1665.38] Boarded 4 passenger(s) onto Aircraft 10
+[t=1665.38]  Scheduled flight | Aircraft 10 | MER → DAV | Departure at 1666.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=1665.38] Aircraft 8 ARRIVED at MER from MOF | Battery: 90.00%
+ [t=1665.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=1665.38]  Scheduled flight | Aircraft 8 | MER → BER | Departure at 1666.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to BER with 4 pax
+[t=1666.38] Aircraft 10 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=1666.38] Aircraft 8 DEPARTED from MER to BER | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=1674.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=1674.38] Boarded 4 passenger(s) onto Aircraft 7
+[t=1674.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 1675.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from BER to MER with 4 pax
+[t=1675.38] Aircraft 9 ARRIVED at DAV from MER | Battery: 90.00%
+Return flight EMPTY from DAV to MER
+[t=1675.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=1676.38] Aircraft 9 DEPARTED from DAV to MER | Battery: 90.00%
+[t=1679.68] Aircraft 5 ARRIVED at MOF from MER | Battery: 90.00%
+[t=1681.21] Aircraft 1 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=1681.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=1681.21]  Scheduled flight | Aircraft 1 | SCZ → MER | Departure at 1682.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=1682.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=1699.38] Aircraft 8 ARRIVED at BER from MER | Battery: 90.00%
+[t=1699.38] Aircraft 8 DEPARTED from MER to BER | Battery: 90.00%
+[t=1700.38] Aircraft 8 DEPARTED from BER to MER | Battery: 90.00%
+[t=1712.21] Aircraft 2 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=1712.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=1712.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 1713.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=1713.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=1725.38] Aircraft 9 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=1725.38] Boarded 4 passenger(s) onto Aircraft 9
+[t=1725.38]  Scheduled flight | Aircraft 9 | MER → SCZ | Departure at 1726.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to SCZ with 4 pax
+[t=1726.38] Aircraft 9 DEPARTED from MER to SCZ | Battery: 90.00%
+Aircraft 9 not found in any vertiport.
+[t=1731.21] Aircraft 1 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=1731.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=1732.21] Aircraft 1 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1733.38] Aircraft 10 ARRIVED at DAV from MER | Battery: 90.00%
+Return flight EMPTY from DAV to MER
+[t=1734.38] Aircraft 10 DEPARTED from DAV to MER | Battery: 90.00%
+[t=1745.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+[t=1745.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+[t=1746.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=1750.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+[t=1750.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+[t=1751.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1770.38] Aircraft 8 ARRIVED at MER from BER | Battery: 90.00%
+ [t=1770.38] Boarded 4 passenger(s) onto Aircraft 8
+[t=1770.38]  Scheduled flight | Aircraft 8 | MER → DAV | Departure at 1771.38 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from MER to DAV with 4 pax
+[t=1771.38] Aircraft 8 DEPARTED from MER to DAV | Battery: 90.00%
+Aircraft 8 not found in any vertiport.
+[t=1778.38] Aircraft 9 ARRIVED at SCZ from MER | Battery: 90.00%
+[t=1778.38] Aircraft 9 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1779.38] Aircraft 9 DEPARTED from SCZ to MER | Battery: 90.00%
+[t=1779.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=1779.38] Boarded 3 passenger(s) onto Aircraft 7
+[t=1779.38]  Scheduled flight | Aircraft 7 | BER → MER | Departure at 1780.38 | Passengers: 3 | Battery: 90.00%
+Scheduled flight from BER to MER with 3 pax
+[t=1780.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=1780.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=1780.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 1781.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=1780.38] Aircraft 7 DEPARTED from BER to MER | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=1781.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=1783.38] Aircraft 10 ARRIVED at MER from DAV | Battery: 90.00%
+ [t=1783.38] Boarded 3 passenger(s) onto Aircraft 10
+[t=1783.38]  Scheduled flight | Aircraft 10 | MER → MOF | Departure at 1784.38 | Passengers: 3 | Battery: 90.00%
+Scheduled flight from MER to MOF with 3 pax
+[t=1784.21] Aircraft 1 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=1784.21] Boarded 4 passenger(s) onto Aircraft 1
+[t=1784.21]  Scheduled flight | Aircraft 1 | SCZ → MER | Departure at 1785.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 4 pax
+[t=1784.38] Aircraft 10 DEPARTED from MER to MOF | Battery: 90.00%
+Aircraft 10 not found in any vertiport.
+[t=1785.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=1818.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+Return flight EMPTY from BER to SCZ
+[t=1819.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1828.38] Aircraft 9 ARRIVED at MER from SCZ | Battery: 90.00%
+[t=1834.21] Aircraft 1 ARRIVED at MER from SCZ | Battery: 90.00%
+Return flight EMPTY from MER to SCZ
+[t=1835.21] Aircraft 1 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1838.38] Aircraft 8 ARRIVED at DAV from MER | Battery: 90.00%
+Return flight EMPTY from DAV to MER
+[t=1839.38] Aircraft 8 DEPARTED from DAV to MER | Battery: 90.00%
+[t=1848.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+ [t=1848.21] Boarded 4 passenger(s) onto Aircraft 2
+[t=1848.21]  Scheduled flight | Aircraft 2 | SCZ → BER | Departure at 1849.21 | Passengers: 4 | Battery: 90.00%
+Scheduled flight from SCZ to BER with 4 pax
+[t=1849.21] Aircraft 2 DEPARTED from SCZ to BER | Battery: 90.00%
+Aircraft 2 not found in any vertiport.
+[t=1850.38] Aircraft 7 ARRIVED at MER from BER | Battery: 90.00%
+Return flight EMPTY from MER to BER
+[t=1851.38] Aircraft 7 DEPARTED from MER to BER | Battery: 90.00%
+[t=1874.38] Aircraft 10 ARRIVED at MOF from MER | Battery: 90.00%
+Return flight EMPTY from MOF to MER
+[t=1875.38] Aircraft 10 DEPARTED from MOF to MER | Battery: 90.00%
+[t=1884.38] Aircraft 7 ARRIVED at BER from MER | Battery: 90.00%
+ [t=1884.38] Boarded 1 passenger(s) onto Aircraft 7
+[t=1884.38]  Scheduled flight | Aircraft 7 | BER → DAV | Departure at 1885.38 | Passengers: 1 | Battery: 90.00%
+Scheduled flight from BER to DAV with 1 pax
+[t=1885.38] Aircraft 7 DEPARTED from BER to DAV | Battery: 90.00%
+Aircraft 7 not found in any vertiport.
+[t=1886.21] Aircraft 2 ARRIVED at BER from SCZ | Battery: 90.00%
+Return flight EMPTY from BER to SCZ
+[t=1887.21] Aircraft 1 ARRIVED at SCZ from MER | Battery: 90.00%
+ [t=1887.21] Boarded 3 passenger(s) onto Aircraft 1
+[t=1887.21]  Scheduled flight | Aircraft 1 | SCZ → MER | Departure at 1888.21 | Passengers: 3 | Battery: 90.00%
+Scheduled flight from SCZ to MER with 3 pax
+[t=1887.21] Aircraft 2 DEPARTED from BER to SCZ | Battery: 90.00%
+[t=1888.21] Aircraft 1 DEPARTED from SCZ to MER | Battery: 90.00%
+Aircraft 1 not found in any vertiport.
+[t=1888.38] Aircraft 8 ARRIVED at MER from DAV | Battery: 90.00%
+[t=1916.21] Aircraft 2 ARRIVED at SCZ from BER | Battery: 90.00%
+[t=1919.38] Aircraft 10 ARRIVED at MER from MOF | Battery: 90.00%
+[t=1937.21] Aircraft 1 ARRIVED at MER from SCZ | Battery: 90.00%
+Return flight EMPTY from MER to SCZ
+[t=1938.21] Aircraft 1 DEPARTED from MER to SCZ | Battery: 90.00%
+[t=1965.38] Aircraft 7 ARRIVED at DAV from BER | Battery: 90.00%
+Return flight EMPTY from DAV to BER
+[t=1966.38] Aircraft 7 DEPARTED from DAV to BER | Battery: 90.00%
+[t=1990.21] Aircraft 1 ARRIVED at SCZ from MER | Battery: 90.00%
+[t=1991.38] Aircraft 7 ARRIVED at BER from DAV | Battery: 90.00%
+\SIMULATION REPORT
+Flights completed: 566
+Charge events: 0
+Final Aircraft States:
+- Vertiport SCZ: 2 aircraft
+- Vertiport MOF: 4 aircraft
+- Vertiport BER: 1 aircraft
+- Vertiport MER: 3 aircraft
+- Vertiport DAV: 5 aircraft

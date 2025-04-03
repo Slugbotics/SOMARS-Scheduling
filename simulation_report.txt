@@ -1,0 +1,9 @@
+\SIMULATION REPORT
+Flights completed: 566
+Charge events: 0
+Final Aircraft States:
+- Vertiport SCZ: 2 aircraft
+- Vertiport MOF: 4 aircraft
+- Vertiport BER: 1 aircraft
+- Vertiport MER: 3 aircraft
+- Vertiport DAV: 5 aircraft
