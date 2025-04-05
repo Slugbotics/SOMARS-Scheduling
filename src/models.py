@@ -51,16 +51,44 @@ class Aircraft:
         self.capacity = capacity
         self.loc = loc
         self.load = []
-    
+        self.will_depart = False
+        self.charging = False
+
+
     def add_passenger(self, passenger: Passenger) -> bool:
         if len(self.load) >= self.capacity:
             print("Cannot add passenger (Full Aircraft)")
             return False 
         self.load.append(passenger)
         return True
-    
+
     def remove_passengers(self):
         self.load.clear()
+
+    def set_depart(self):
+        self.will_depart = True
+
+    def set_to_depart(self):
+        return self.will_depart
+    
+    def arrived(self, flight_time, new_loc):
+        self.bat_per -= flight_time
+        self.will_depart = False
+        self.remove_passengers()
+        self.loc = new_loc
+
+    def set_charging(self, val):
+        self.charging = val 
+    
+    def is_charging(self):
+        return self.charging
+    
+    def update_charge(self, charge_time):
+        self.bat_per = min(self.battery_capacity, self.bat_per + (charge_time * self.charge_rate))
+        self.charging = False
+        if (self.bat_per < 0):
+            print(f"Something has gone wrong: {self.id} has bat per {self.bat_per}")
+            exit(0)
 
     def __str__(self):
         return f"\nAircraft ID={self.id}, Battery={self.bat_per}, Capacity={self.capacity}, Location={self.loc}"

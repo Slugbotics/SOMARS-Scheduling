@@ -1,9 +1,10 @@
 import heapq
 from models import Aircraft, PassengerDemand, Passenger
 from event import Event, AircraftFlight, PassengerEvent, Charge
+from collections import defaultdict
 
 class EventProcessor:
-    def __init__(self, vertiports=None, transport_times = None, ground_transport_schedule=None):
+    def __init__(self, vertiports=None, transport_times = None, ground_transport_schedule=None, scheduler=None):
         self.event_queue = []
         self.flight_events = {}  
         self.current_time = 0 
@@ -11,13 +12,26 @@ class EventProcessor:
         self.vertiports = vertiports
         self.transport_times = transport_times 
         self.ground_transport_schedule = ground_transport_schedule
+        self.scheduler = scheduler
         heapq.heapify(self.event_queue)
+
+
+        self.hourly_throughput = defaultdict(int)
+        self.passenger_arrival_time = {}
+        self.passenger_boarding_delays = []
+        self.ground_time_start = {}
+        self.charge_time_by_location = defaultdict(float)
+        self.ground_cycles = []
+        self.charge_cycles = []
+        self.loading_cycles = []
+        self.charging_in_cycle = defaultdict(float)
+
 
     def get_next_event_id(self):
         event_id = self.event_id
         self.event_id += 1
         return event_id
-
+    
     def add_event(self, event):
         """Schedules a new event in the priority queue."""
         heapq.heappush(self.event_queue, event)
@@ -61,7 +75,8 @@ class EventProcessor:
     def add_charge(self, charge: Charge):
         event = Event(self.get_next_event_id(), self.current_time + charge.charge_time, "chargeevent", charge)
         self.add_event(event)
-        print(f" Aircraft {charge.aircraft.id} will charge for {charge.charge_time} minutes.")
+        charge.aircraft.set_charging(True)
+        # print(f" Aircraft {charge.aircraft.id} will charge for {charge.charge_time} minutes.")
             
 
     def modify_event(self, event_id, event_type=None, new_time=None, new_data=None):
@@ -104,7 +119,12 @@ class EventProcessor:
 
     def init_aircraft(self, aircraft: Aircraft):
             print(f" Adding Aircraft {aircraft.id} to vertiport {aircraft.loc}")
-            next(v for v in self.vertiports if v.name == aircraft.loc).current_aircraft.append(aircraft)
+            for v in self.vertiports:
+                if v.name == aircraft.loc:
+                    v.current_aircraft.append(aircraft)
+                    self.ground_time_start[aircraft.id] = self.current_time
+                    break
+
 
     def process_event(self, event):
         """Handles events based on their type in the discrete event simulation."""
@@ -121,6 +141,7 @@ class EventProcessor:
 
     def handle_add_passenger_to_vertiport(self, passenger: Passenger):
         print(f" Adding passenger to vertiport {passenger.src} with destination {passenger.dest}")
+        self.passenger_arrival_time[passenger] = self.current_time
         next(v for v in self.vertiports if v.name == passenger.src).current_passengers.append(passenger)
 
     def handle_departure(self, flight: AircraftFlight):
@@ -132,8 +153,31 @@ class EventProcessor:
                 removed = True
                 print(f"Removed aircraft from {vertiport.name}")
                 break
+
         if not removed:
             print("Aircraft not found in any vertiport.")
+            return 
+
+        a_id = flight.aircraft.id
+        if a_id in self.ground_time_start:
+            cycle_time = self.current_time - self.ground_time_start[a_id]
+            charge_time = self.charging_in_cycle[a_id]
+            loading_time = cycle_time - charge_time
+
+            self.ground_cycles.append(cycle_time)
+            self.charge_cycles.append(charge_time)
+            self.loading_cycles.append(loading_time)
+
+            # reset for the next cycle
+            self.charging_in_cycle[a_id] = 0.0
+            del self.ground_time_start[a_id]
+
+        for p in flight.aircraft.load:
+            arrival_t = self.passenger_arrival_time.get(p, None)
+            if arrival_t is not None:
+                delay = self.current_time - arrival_t
+                self.passenger_boarding_delays.append(delay)
+
 
     def handle_arrival(self, flight: AircraftFlight):
         print(f" Aircraft {flight.aircraft.id} arrived at {flight.arrival_airport}")
@@ -143,15 +187,25 @@ class EventProcessor:
                 print(f"Aircraft added to {vertiport.name}")
                 break
         
-        flight.aircraft.bat_per -= flight.enroute_time
-        flight.aircraft.remove_passengers()
+        self.ground_time_start[flight.aircraft.id] = self.current_time
+
+        # PASSENGERS COMPLETING THIS FLIGHT -> HOURLY THROUGHPUT
+        hour_index = int(self.current_time // 60)  # which "hour" we are in
+        num_passengers = len(flight.aircraft.load)
+        self.hourly_throughput[hour_index] += num_passengers
+
+        flight.aircraft.arrived(flight.enroute_time, flight.arrival_airport)
 
         ### Example
         # self.add_charge(Charge(flight.aircraft, 30))
 
     def handle_charge(self, charge: Charge):
+        self.charge_time_by_location[charge.aircraft.loc] += charge.charge_time
+        self.charging_in_cycle[charge.aircraft.id] += charge.charge_time
+
+
         charge.update_charge()
-        print(f" Aircraft {charge.aircraft.id} completed charging for {charge.charge_time} minutes with new range (minutes) of {charge.aircraft.bat_per}")
+        # print(f" Aircraft {charge.aircraft.id} completed charging for {charge.charge_time} minutes with new range (minutes) of {charge.aircraft.bat_per}")
         
 
     def handle_delay(self, data):
@@ -166,23 +220,68 @@ class EventProcessor:
                 event = self.step()
                 if event:
                     self.process_event(event)
-                
 
-if __name__ == "__main__":
-    # Create a Scheduler instance
-    scheduler = EventProcessor()
-    
-    aircraft1 = Aircraft(1, 90, 4, "SCZ")  
-    aircraft2 = Aircraft(2, 80, 4, "BER")
-                         
-    # Schedule flight events using the new AircraftFlight and addAircraftFlight method
-    flight1 = AircraftFlight(201, aircraft1, "SCZ", "BER", 30, 30)  # departure at 30, enroute time 30 => arrival at 60
-    flight2 = AircraftFlight(202, aircraft2, "BER", "LAX", 45, 30)  # departure at 45, enroute time 30 => arrival at 75
-    scheduler.add_aircraft_flight(flight1)
-    scheduler.add_aircraft_flight(flight2)
-    
-    # Run the simulation with step mode enabled
-    while scheduler.event_queue:
-        event = scheduler.run(step_mode=True)
-        if event:
-            scheduler.process_event(event)
+                    if self.scheduler:
+                        self.scheduler.schedule(event)
+
+
+    def print_results(self):
+        """
+        Prints the key metrics:
+          - Hourly throughput
+          - Average passenger delay (arrival -> takeoff)
+          - Average ground times per cycle (charging vs. loading/idle vs. total)
+          - Totals of each
+        """
+        print("\n=== Simulation Results ===")
+        print(f"Final simulation time: {self.current_time:.2f}")
+
+        # 1) HOURLY THROUGHPUT
+        print("\n--- Hourly Passenger Throughput ---")
+        if not self.hourly_throughput:
+            print("No passengers completed.")
+        else:
+            val = 0
+            i = 0
+            for hour in sorted(self.hourly_throughput.keys()):
+                print(f"  Hour {hour}: {self.hourly_throughput[hour]} passengers")
+                val += self.hourly_throughput[hour]
+                i+=1 
+            val /= i
+            print(f"Average Throughput: {val:.2f} passengers per hour")
+            
+
+        
+        # 2) AVERAGE PASSENGER DELAY (Arrival -> Takeoff)
+        if self.passenger_boarding_delays:
+            avg_delay = sum(self.passenger_boarding_delays) / len(self.passenger_boarding_delays)
+        else:
+            avg_delay = 0.0
+        print(f"\n--- Average Passenger Delay (arrival->takeoff) ---")
+        print(f"Average delay: {avg_delay:.2f} minutes per passenger")
+
+        # 3) GROUND CYCLE TIMES
+        print("\n--- Aircraft Ground Times per Cycle (Arrival->Departure) ---")
+        n_cycles = len(self.ground_cycles)
+        if n_cycles > 0:
+            total_ground = sum(self.ground_cycles)
+            total_charging = sum(self.charge_cycles)
+            total_loading = sum(self.loading_cycles)
+
+            avg_ground = total_ground / n_cycles
+            avg_charging = total_charging / n_cycles
+            avg_loading = total_loading / n_cycles
+
+            print(f"Number of ground cycles: {n_cycles}")
+            print(f"Avg total ground time per cycle: {avg_ground:.2f} min")
+            print(f"   - of which charging: {avg_charging:.2f} min")
+            print(f"   - of which loading/idle: {avg_loading:.2f} min")
+
+            print("\nTotals across all ground cycles:")
+            print(f"   - Total ground time: {total_ground:.2f} min")
+            print(f"   - Total charging time: {total_charging:.2f} min")
+            print(f"   - Total loading/idle time: {total_loading:.2f} min")
+        else:
+            print("No completed ground cycles (no arrivals/departures).")
+        print("")
+                

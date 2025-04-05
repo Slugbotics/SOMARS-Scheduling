@@ -4,14 +4,27 @@ from models import Aircraft, PassengerDemand, Passenger
 import random
 
 class Simulation:
-    def __init__(self, vertiports, aircraft, passenger_demand, transport_times, ground_transport_schedule):
+    def __init__(self, vertiports, aircraft, passenger_demand, transport_times, ground_transport_schedule, event_create=False):
         self.vertiports = vertiports
         self.aircraft_list = aircraft
         self.passenger_demand = passenger_demand
         self.transport_times = transport_times
         self.ground_transport_schedule = ground_transport_schedule
-        self.event_processor = EventProcessor(vertiports, transport_times, ground_transport_schedule)
-    
+        self.scheduler = None 
+        if event_create:
+            self.init_event_processor()
+        else:
+            self.event_processor = None
+
+    def add_scheduler(self, scheduler):
+        self.scheduler = scheduler
+        if not self.event_processor:
+            self.init_event_processor()
+
+    def init_event_processor(self):
+        self.event_processor = EventProcessor(self.vertiports, self.transport_times, self.ground_transport_schedule, self.scheduler)
+
+
     def graph_passenger_demand(self):
         for route in self.passenger_demand:
             route.graph()
@@ -60,3 +73,6 @@ class Simulation:
         print("\nGround Transport Schedules:")
         for t in self.ground_transport_schedule:
             t.display_info()
+
+    def print_simulation_results(self):
+        return self.event_processor.print_results()

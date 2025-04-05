@@ -45,6 +45,7 @@ class Charge:
     def __init__(self, aircraft, charge_time):
         self.aircraft = aircraft 
         self.charge_time = charge_time 
-    
+
     def update_charge(self):
-        self.aircraft.bat_per = min(self.aircraft.battery_capacity, self.aircraft.bat_per + (self.charge_time * self.aircraft.charge_rate))
+        self.aircraft.update_charge(self.charge_time)
+        
