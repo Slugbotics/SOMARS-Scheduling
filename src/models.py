@@ -32,9 +32,11 @@ class Vertiport:
         )
     
 class Passenger:
-    def __init__(self, src, dest):
+    def __init__(self, src, dest, id, book_time=0):
         self.src = src 
         self.dest = dest
+        self.id = id
+        self.book_time = book_time
 
     def __str__(self):
         return f"\nOrigin={self.src}, Destination={self.dest}"

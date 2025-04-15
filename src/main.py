@@ -6,7 +6,7 @@ import sys
 from load_data import load_vertiports, load_ground_transport, load_transport_times, load_passenger_demand, load_starting_state 
 from simulation import Simulation
 from event import Event, AircraftFlight, PassengerEvent
-from scheduler import Scheduler
+from scheduler import NaiveScheduler, RewardScheduler
 
 def main(data_folder, total_fly_time):
     # Check if the specified folder exists
@@ -25,7 +25,7 @@ def main(data_folder, total_fly_time):
     ground_transports = load_ground_transport(data_folder + 'ground_transport.csv')
 
     simulation = Simulation(vertiport_list, all_aircraft, demands, transports, ground_transports)
-    simulation.add_scheduler(Scheduler(simulation))
+    simulation.add_scheduler(RewardScheduler(simulation))
 
     # simulation.print_simulation_initialization()
     # simulation.graph_passenger_demand()
@@ -36,7 +36,6 @@ def main(data_folder, total_fly_time):
     simulation.event_processor.run()
     # simulation.print_vertiport_aircraft()
     # simulation.print_vertiport_states()
-    simulation.print_simulation_results()
 
 if __name__ == "__main__":
     # Set up the argument parser

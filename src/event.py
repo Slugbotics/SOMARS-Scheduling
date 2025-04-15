@@ -1,5 +1,5 @@
 from models import Aircraft, PassengerDemand
-
+from vars_types import generate_charge_id
 
 class Event:
     def __init__(self, event_id, time, event_type, data):
@@ -45,6 +45,7 @@ class Charge:
     def __init__(self, aircraft, charge_time):
         self.aircraft = aircraft 
         self.charge_time = charge_time 
+        self.charge_id = generate_charge_id()
 
     def update_charge(self):
         self.aircraft.update_charge(self.charge_time)

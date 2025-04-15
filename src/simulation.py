@@ -2,6 +2,7 @@ from eventprocessor import EventProcessor
 from event import Event, PassengerEvent
 from models import Aircraft, PassengerDemand, Passenger
 import random
+from vars_types import generate_passenger_id
 
 class Simulation:
     def __init__(self, vertiports, aircraft, passenger_demand, transport_times, ground_transport_schedule, event_create=False):
@@ -37,7 +38,7 @@ class Simulation:
                     unit_time_min = (60*route.unit_time) 
                     start_time = unit_time_min * i
                     random_time = random.uniform(start_time, start_time + unit_time_min)
-                    passenger = Passenger(route.src, route.dest)
+                    passenger = Passenger(route.src, route.dest, generate_passenger_id())
 
                     passenger_event = PassengerEvent(self.event_processor.get_next_event_id(), random_time, "add_passenger_to_vertiport", passenger)
                     self.event_processor.add_passenger_event(passenger_event)
@@ -73,6 +74,3 @@ class Simulation:
         print("\nGround Transport Schedules:")
         for t in self.ground_transport_schedule:
             t.display_info()
-
-    def print_simulation_results(self):
-        return self.event_processor.print_results()
