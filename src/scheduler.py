@@ -161,11 +161,11 @@ class RewardScheduler(Scheduler):
         self.simulation = simulation
 
     def total_passenger_f(self, x):
-        return 30*x
+        return x
     
     def highest_latency_f(self, x):
         # return math.exp(x/10) - 2.5
-        return (3/4)*x - 20
+        return (3/4)*x + 20
     
     def average_latency_f(self, x):
         # return math.exp(x/5) - 2.5
@@ -218,6 +218,8 @@ class RewardScheduler(Scheduler):
 
                 # Load as many passengers as we can onto the aircraft
                 loaded_passengers = []
+                passengers_for_dest.sort(key=lambda p: p.book_time)
+
                 while len(passengers_for_dest) > 0 and len(aircraft.load) < aircraft.capacity:
                     p = passengers_for_dest.pop()
                     success = aircraft.add_passenger(p)

@@ -150,7 +150,7 @@ class EventProcessor:
         removed = False
         for vertiport in self.vertiports:
             if flight.aircraft in vertiport.current_aircraft:
-                self.csv_writer.writerow([self.current_time, "aircraftdeparture", flight.flight_id, str(flight.aircraft.id) + " " + str(flight.departure_airport) + " " + str(flight.arrival_airport) + " " + str(flight.enroute_time) + " " + str(flight.aircraft.bat_per)])
+                self.csv_writer.writerow([self.current_time, "aircraftdeparture", flight.flight_id, str(flight.aircraft.id) + " " + str(flight.departure_airport) + " " + str(flight.arrival_airport) + " " + str(flight.enroute_time) + " " + str(flight.aircraft.bat_per) +  " " + str(len(flight.aircraft.load))])
                 for passenger in flight.aircraft.load:
                     self.csv_writer.writerow([self.current_time, "passengerdeparture", passenger.id, str(passenger.src) + " " + str(passenger.dest) + " " + str(flight.enroute_time)])
                 vertiport.current_aircraft.remove(flight.aircraft)
@@ -199,7 +199,7 @@ class EventProcessor:
 
                     if self.scheduler:
                         self.scheduler.schedule(event)
-                MAX_EVENT_TIME=25
-                if self.current_time > 60*MAX_EVENT_TIME:
-                    print(f"Simulation time exceeded {MAX_EVENT_TIME} hours. Stopping.")
-                    return 0
+                # MAX_EVENT_TIME=25
+                # if self.current_time > 60*MAX_EVENT_TIME:
+                #     print(f"Simulation time exceeded {MAX_EVENT_TIME} hours. Stopping.")
+                #     return 0
