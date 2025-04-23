@@ -19,7 +19,7 @@ def plot_latencies(latencies):
     plt.plot(latencies, marker='o', linestyle='-', color='b')
     plt.xlabel('Passenger Index')
     plt.ylabel('Latency (minutes)')
-    plt.title('Passenger Latency Over Time')
+    plt.title('Passenger Wait Times')
     plt.grid(True)
     plt.show()
 
@@ -36,8 +36,8 @@ def plot_latency_histogram(latencies):
 
     # Plot the histogram
     plt.hist(valid_latencies, bins=bins)
-    plt.title("Latency Histogram")
-    plt.xlabel("Latency (seconds)")
+    plt.title("Wait Times (Histogram)")
+    plt.xlabel("Latency (minutes)")
     plt.ylabel("Frequency")
     plt.show()
 
@@ -68,7 +68,7 @@ def calculate_average_latency(reader):
 
     return total_latency / N if N > 0 else 0.0, N
 
-def plot_throughput_histogram(throughput_per_hour_map):
+def plot_throughput_histogram(throughput_per_hour_map, title=""):
     hours = sorted(throughput_per_hour_map.keys())
     throughputs = [throughput_per_hour_map[hour] for hour in hours]
 
@@ -76,7 +76,7 @@ def plot_throughput_histogram(throughput_per_hour_map):
     plt.bar(hours, throughputs)
     plt.xlabel('Hour')
     plt.ylabel('Throughput')
-    plt.title('Hourly Throughput')
+    plt.title(title)
     plt.show()
 
 def calculate_average_throughput(reader):
@@ -90,7 +90,7 @@ def calculate_average_throughput(reader):
             throughput_per_hour_map[hour] += 1
             T = max(T, hour)
 
-    plot_throughput_histogram(throughput_per_hour_map)
+    plot_throughput_histogram(throughput_per_hour_map, title="Passenger Hourly Throughput")
 
     return sum(throughput_per_hour_map.values()) / T 
     
@@ -104,7 +104,7 @@ def average_flight_load(reader):
     print("Mean Flight Capacity: " +  str(np.mean(load)))
     print("Std Flight Capacity: " + str(np.std(load)))
 
-    n, bins, patches = plt.hist(load, bins=4)
+    n, bins, patches = plt.hist(load, bins=max(load))
 
     # Add the frequency above each bar
     for i in range(len(n)):
@@ -113,10 +113,39 @@ def average_flight_load(reader):
             bar_height = n[i]
             plt.text(bar_center, bar_height, str(int(bar_height)),
                      ha='center', va='bottom')  # ha='center' aligns horizontally
-    plt.title("Histogram of Flight Load")
+    plt.title("Flight Load")
     plt.xlabel("Load")
     plt.ylabel("Frequency")
     plt.show()
+
+def stranded_passengers(reader):
+    total_passengers = 0
+    stranded_passengers = []
+    filtered_passengers = []
+    filter = 3
+    for row in reader:
+        if row["event_type"] == "passengerbook":
+            passenger_id = int(row['join_id'])
+            booktime = float(row["time"])
+            stranded_passengers.append((booktime, passenger_id))
+            total_passengers += 1
+        elif row["event_type"] == "passengerarrival":
+            passenger_id = int(row['join_id'])
+            for passenger in stranded_passengers:
+                if passenger[1] == passenger_id:
+                    stranded_passengers.remove(passenger)
+                    break
+        elif row["event_type"] == "simulation_end":
+            end_time = float(row["data"].split(" ")[0])
+            for passenger in stranded_passengers:
+                if passenger[0] < (end_time - (60*filter)):
+                    filtered_passengers.append(passenger[1])
+    print("Number of Stranded Passengers: " + str(len(stranded_passengers)))
+    if len(stranded_passengers) > 0:
+        print("Percentage of Stranded Passengers: " + str(len(stranded_passengers) / total_passengers * 100) + "%")
+    else: 
+        print("Percentage of Stranded Passengers: 0%")
+    print(f"Number of Standard Passengers (Waiting for longer than {filter} hours): " + str(len(filtered_passengers)))
 
 def passenger_book_rate(reader):
     T = 0.0
@@ -129,7 +158,7 @@ def passenger_book_rate(reader):
             passenger_book_rate_per_hour_map[hour] += 1
             T = max(T, hour)
 
-    plot_throughput_histogram(passenger_book_rate_per_hour_map)
+    plot_throughput_histogram(passenger_book_rate_per_hour_map, title="Passenger Booking Rate (Per Hour)")
 
     return sum(passenger_book_rate_per_hour_map.values()) / T 
 
@@ -145,9 +174,10 @@ def get_charge_information(aircraft_map, reader):
             all_charge_times.append(charge_time)
 
     for aircraft_id in aircraft_map:
-        total_charge_time = np.sum(aircraft_map[aircraft_id]["charge_event"])
-        mean_charge_time = np.mean(aircraft_map[aircraft_id]["charge_event"])
-        std_charge_time = np.std(aircraft_map[aircraft_id]["charge_event"])
+
+        total_charge_time = np.sum(aircraft_map[aircraft_id].get("charge_event", 0))
+        mean_charge_time = np.mean(aircraft_map[aircraft_id].get("charge_event", 0))
+        std_charge_time = np.std(aircraft_map[aircraft_id].get("charge_event", 0))
 
         print(f"Total Charge Time For Aircraft {aircraft_id}: {total_charge_time}")
         print(f"Mean Charge Time For Aircraft {aircraft_id}: {mean_charge_time}")
@@ -165,11 +195,11 @@ def get_charge_information(aircraft_map, reader):
 
     return total_charge_time, mean_charge_time, std_charge_time
 
+
 class AIRCRAFT_STATE(Enum):
     STATIONARY = 0,
     FLIGHT = 1,
     CHARGING = 2
-
 
 def compute_state_proportions_per_cycle(aircraft_data):
     timeline = sorted(aircraft_data["timeline"], key=lambda x: x[0])
@@ -249,7 +279,7 @@ def calculate_state_proportions(aircraft_map):
         results = compute_state_proportions_per_cycle(aircraft_data)
         print(f"Aircraft {aircraft_id} State Proportions:")
         for cycle in results["per_cycle"]: 
-            print(cycle)
+            # print(cycle)
             pass
 
         print(f"Number of Cycles: {results['cycles']}")
@@ -397,6 +427,10 @@ def parse_csv(filename):
         csvfile.seek(0)
 
         average_flight_load(reader)
+        csvfile.seek(0)
+
+        stranded_passengers(reader)
+        csvfile.seek(0)
 
 
 def get_log_file_path():

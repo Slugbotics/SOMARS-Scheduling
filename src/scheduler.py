@@ -161,11 +161,11 @@ class RewardScheduler(Scheduler):
         self.simulation = simulation
 
     def total_passenger_f(self, x):
-        return x
+        return 5*x
     
     def highest_latency_f(self, x):
-        # return math.exp(x/10) - 2.5
-        return (3/4)*x + 20
+        # return math.exp(x/10) + 2.5
+        return (3/4)*x - 20
     
     def average_latency_f(self, x):
         # return math.exp(x/5) - 2.5
@@ -211,7 +211,7 @@ class RewardScheduler(Scheduler):
                 if aircraft.set_to_depart() or aircraft.is_charging():
                     continue
 
-                chosen_destination, passengers_for_dest, transport_time = self.select_trip_for_aircraft_2(aircraft, ranked_routes, vertiport, destination_map)
+                chosen_destination, passengers_for_dest, transport_time = self.select_trip_for_aircraft(aircraft, ranked_routes, vertiport, destination_map)
 
                 if chosen_destination is None:
                     continue
@@ -253,9 +253,15 @@ class RewardScheduler(Scheduler):
 
             
     def select_trip_for_aircraft(self, aircraft, ranked_routes, vertiport, destination_map):
+            charge = False
             for i in range(len(ranked_routes)):
                 chosen_destination = ranked_routes[i][0]
+                if ranked_routes[i][1] <= 0:
+                    continue
                 passengers_for_dest = destination_map[chosen_destination]
+                if len(passengers_for_dest) < 2:
+                    continue
+
 
 
                 transport_time = get_transport_time(
@@ -267,12 +273,15 @@ class RewardScheduler(Scheduler):
 
                 if transport_time is None:
                     del destination_map[chosen_destination]
+                    charge = True
                     continue 
 
                 if transport_time > aircraft.bat_per:
                     del destination_map[chosen_destination]
+                    charge = True
                     continue
                 
+
                 aircraft.set_depart()
                 return chosen_destination, passengers_for_dest, transport_time
              
@@ -281,7 +290,8 @@ class RewardScheduler(Scheduler):
                 charge_time = sum(2 * len(destination_map[dest_name]) * get_transport_time(self.simulation, vertiport.name, dest_name, randomize=False) for dest_name in destination_map.keys()) / len(destination_map)
             
             charge_time = min(90, max(charge_time, 15))
-            self.simulation.event_processor.add_charge(Charge(aircraft, charge_time))
+            if charge:
+                self.simulation.event_processor.add_charge(Charge(aircraft, charge_time))
             return None, [], None
    
 

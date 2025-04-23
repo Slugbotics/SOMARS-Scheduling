@@ -1,0 +1,11 @@
+item,cost,unit,useful_life
+joby_vehicle,2200000,plane,10
+archer_vehicle,5000000,plane,10
+joby_charger,100000,charger,5
+archer_charger,200000,charger,5
+training_simulator,500000,simulator,5
+hangar,1000000,hangar,20
+ground_vehicle,50000,vehicle,10
+it_infrastructure,200000,infrastructure,5
+r_and_d,1000000,year,1
+

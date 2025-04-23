@@ -1,0 +1,15 @@
+item,cost,unit
+energy_cost,0.35,kwh
+pilot_salary,100000,person_year
+pilot_training,20000,year
+flight_operations_salary,75000,person_year
+ground_operations_salary,60000,person_year
+landing_fees,2,flight
+maintenance,100000,aircraft_year
+insurance,20000,aircraft_year
+general_and_adminstrative,300000,year
+sales_and_marketing,400000,year
+legal_and_compliance,100000,year
+software_and_systems,500000,year
+spare_parts,50000,year
+taxes,0.11,dollar

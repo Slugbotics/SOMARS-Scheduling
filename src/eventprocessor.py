@@ -190,16 +190,19 @@ class EventProcessor:
     def run(self, step_mode=False):
         """Runs the discrete event simulation."""
         while self.event_queue:
+        
             if step_mode:
                 return self.step()  # Return the event for external algorithm modifications
             else:
                 event = self.step()
+                MAX_EVENT_TIME=20
+                if self.current_time > 60*MAX_EVENT_TIME:
+                    print(f"Simulation time exceeded {MAX_EVENT_TIME} hours. Stopping.")
+                    self.csv_writer.writerow([self.current_time, "simulation_end", "", str(60*MAX_EVENT_TIME)])
+                    return 0
+                
                 if event:
                     self.process_event(event)
 
                     if self.scheduler:
                         self.scheduler.schedule(event)
-                # MAX_EVENT_TIME=25
-                # if self.current_time > 60*MAX_EVENT_TIME:
-                #     print(f"Simulation time exceeded {MAX_EVENT_TIME} hours. Stopping.")
-                #     return 0
